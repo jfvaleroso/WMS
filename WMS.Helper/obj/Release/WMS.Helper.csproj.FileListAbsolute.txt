@@ -1,0 +1,9 @@
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Helper\bin\Release\WMS.Helper.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Helper\bin\Release\WMS.Helper.pdb
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Helper\obj\Release\WMS.Helper.csprojResolveAssemblyReference.cache
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Helper\obj\Release\WMS.Helper.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Helper\obj\Release\WMS.Helper.pdb
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.Helper\bin\Release\WMS.Helper.dll
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.Helper\bin\Release\WMS.Helper.pdb
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.Helper\obj\Release\WMS.Helper.dll
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.Helper\obj\Release\WMS.Helper.pdb

@@ -1,0 +1,114 @@
+﻿@model  WMS.Web.Models.WorkflowMappingModel
+@{
+    ViewBag.Title = "Manage Workflow Mapping";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="row">
+    <div class="col-md-5">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title"><strong>Wofklow mapping.</strong></h3>
+
+            </div>
+            <div class="panel-body small">
+                Instructions here...
+
+
+            </div>
+
+        </div>
+
+    </div>
+    <div class="col-md-7">
+
+        @Html.Partial("ModalTemplates/_Status")
+        <div id="transaction">
+            @using (Html.BeginForm())
+            {
+                  <div id="alert" class="alert alert-danger hide">
+            <strong>Notification</strong>
+            <span id="notification"></span>
+            @Html.ValidationSummary(false)
+        </div>
+
+                <div class="form-group">
+
+
+                    <div class="row">
+                        <div class="col-md-8">
+                            <div class="editor-field">
+                                @Html.DropDownListFor(model => model.WorkflowId, Model.WorkflowList, new { @class = "combobox combobox-medium", @readonly = "readonly" })
+                                <p class="small">Selected workflow.</p>
+                            </div>
+
+                        </div>
+                        <div class="col-md-4">
+                            <div class="editor-field">
+                                <select id="options" class="combobox combobox-medium">
+                                    <option value="single">Single Assignee</option>
+                                    <option value="multiple">Multiple Assignee</option>
+                                </select>
+                                <p class="small">Choose type.</p>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div id="operator-container" class="editor-field hide">
+                        @Html.DropDownListFor(model => model.Operator, Model.OperatorList, string.Empty, new { @class = "combobox-medium combobox", @readonly = "readonly" })
+                        <p class="small">Choose logic for multuiple assignee.</p>
+                    </div>
+
+                    <div class="editor-field">
+                        @Html.DropDownListFor(model => model.Assignee, Model.RoleList, new { @class = "combobox-medium combobox", @readonly = "readonly", @multiple = "true" })
+                        <p id="note-assignee" class="small">Specify single approver.</p>
+                    </div>
+                    <div class="editor-field">
+                        @Html.DropDownListFor(model => model.NoticeTo, Model.RoleList, new { @class = "combobox-medium combobox", @readonly = "readonly", @multiple = "true" })
+                        <p id="note-alertTo" class="small">Note: Users under this role are not part of the escalation but will be notified under this level.(Optional)</p>
+                    </div>
+
+                    <div class="editor-field">
+                        @Html.TextBoxFor(model => model.SLA, new { @class = "form-control" })
+                        <p class="small">Indicate SLA in days.</p>
+                    </div>
+
+                </div>
+
+                <div class="left">
+                    <button id="btnAdd" class="btn btn-large btn-success" type="submit">
+                        Add Level
+                    </button>
+
+
+                </div>
+            }
+
+            @Html.Partial("Partial/Workflow", Model)
+
+        </div>
+
+
+
+        <div class="right">
+            <button id="btnBack" class="btn btn-large btn-success" type="button">
+                Back
+            </button>
+            <button id="btnCancel" class="btn btn-large btn-success" type="button">
+                Cancel
+            </button>
+            <button id="btnModify" class="btn btn-large btn-success" type="button">
+                Save Changes
+            </button>
+
+        </div>
+    </div>
+</div>
+
+
+@Html.Hidden("Manage", Url.Action("SaveChangesInWorkflowMapping"))
+@Html.Hidden("Add", Url.Action("AddWorkflow"))
+@Html.Hidden("RedirectAction", Url.Action("Index", "WorkflowMapping"))
+@Html.Hidden("Cancel", Url.Action("Index", "Workflow"))
+

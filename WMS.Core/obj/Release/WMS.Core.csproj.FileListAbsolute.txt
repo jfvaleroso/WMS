@@ -1,0 +1,14 @@
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Core\bin\Release\WMS.Core.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Core\bin\Release\WMS.Core.pdb
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Core\bin\Release\WMS.Entities.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Core\bin\Release\WMS.Entities.pdb
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Core\obj\Release\WMS.Core.csprojResolveAssemblyReference.cache
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Core\obj\Release\WMS.Core.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Core\obj\Release\WMS.Core.pdb
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.Core\bin\Release\WMS.Core.dll
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.Core\bin\Release\WMS.Core.pdb
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.Core\bin\Release\WMS.Entities.dll
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.Core\bin\Release\WMS.Entities.pdb
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.Core\obj\Release\WMS.Core.csprojResolveAssemblyReference.cache
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.Core\obj\Release\WMS.Core.dll
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.Core\obj\Release\WMS.Core.pdb

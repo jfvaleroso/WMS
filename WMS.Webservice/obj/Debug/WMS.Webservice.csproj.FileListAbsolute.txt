@@ -1,0 +1,45 @@
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem\WMS.Webservice\bin\Debug\WMS.Webservice.dll
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem\WMS.Webservice\bin\Debug\WMS.Webservice.pdb
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem\WMS.Webservice\obj\Debug\WMS.Webservice.dll
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem\WMS.Webservice\obj\Debug\WMS.Webservice.pdb
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem\WMS.Webservice\obj\Debug\WMS.Webservice.csprojResolveAssemblyReference.cache
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.Webservice\bin\Debug\WMS.Webservice.dll.config
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.Webservice\bin\Debug\WMS.Webservice.dll
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.Webservice\bin\Debug\WMS.Webservice.pdb
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.Webservice\bin\Debug\WMS.Configurations.dll
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.Webservice\bin\Debug\WMS.Configurations.pdb
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.Webservice\obj\Debug\WMS.Webservice.csprojResolveAssemblyReference.cache
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.Webservice\obj\Debug\WMS.Webservice.dll
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.Webservice\obj\Debug\WMS.Webservice.pdb
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.Webservice\bin\Debug\WMS.Webservice.dll.config
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.Webservice\bin\Debug\WMS.Webservice.dll
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.Webservice\bin\Debug\WMS.Webservice.pdb
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.Webservice\bin\Debug\WMS.Configurations.dll
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.Webservice\bin\Debug\WMS.Configurations.pdb
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.Webservice\obj\Debug\WMS.Webservice.csprojResolveAssemblyReference.cache
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.Webservice\obj\Debug\WMS.Webservice.dll
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.Webservice\obj\Debug\WMS.Webservice.pdb
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Webservice\bin\Debug\WMS.Webservice.dll.config
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Webservice\bin\Debug\WMS.Webservice.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Webservice\bin\Debug\WMS.Webservice.pdb
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Webservice\bin\Debug\WMS.Configurations.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Webservice\bin\Debug\WMS.Configurations.pdb
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Webservice\obj\Debug\WMS.Webservice.csprojResolveAssemblyReference.cache
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Webservice\obj\Debug\WMS.Webservice.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Webservice\obj\Debug\WMS.Webservice.pdb
+C:\GITREPOSITORY\GITHUB\WMS\WMS.Webservice\bin\Debug\WMS.Webservice.dll.config
+C:\GITREPOSITORY\GITHUB\WMS\WMS.Webservice\bin\Debug\WMS.Webservice.dll
+C:\GITREPOSITORY\GITHUB\WMS\WMS.Webservice\bin\Debug\WMS.Webservice.pdb
+C:\GITREPOSITORY\GITHUB\WMS\WMS.Webservice\bin\Debug\WMS.Configurations.dll
+C:\GITREPOSITORY\GITHUB\WMS\WMS.Webservice\bin\Debug\WMS.Configurations.pdb
+C:\GITREPOSITORY\GITHUB\WMS\WMS.Webservice\obj\Debug\WMS.Webservice.csprojResolveAssemblyReference.cache
+C:\GITREPOSITORY\GITHUB\WMS\WMS.Webservice\obj\Debug\WMS.Webservice.dll
+C:\GITREPOSITORY\GITHUB\WMS\WMS.Webservice\obj\Debug\WMS.Webservice.pdb
+D:\GITREPOSITORY\GITHUB\WMS\WMS.Webservice\bin\Debug\WMS.Webservice.dll.config
+D:\GITREPOSITORY\GITHUB\WMS\WMS.Webservice\bin\Debug\WMS.Webservice.dll
+D:\GITREPOSITORY\GITHUB\WMS\WMS.Webservice\bin\Debug\WMS.Webservice.pdb
+D:\GITREPOSITORY\GITHUB\WMS\WMS.Webservice\bin\Debug\WMS.Configurations.dll
+D:\GITREPOSITORY\GITHUB\WMS\WMS.Webservice\bin\Debug\WMS.Configurations.pdb
+D:\GITREPOSITORY\GITHUB\WMS\WMS.Webservice\obj\Debug\WMS.Webservice.csprojResolveAssemblyReference.cache
+D:\GITREPOSITORY\GITHUB\WMS\WMS.Webservice\obj\Debug\WMS.Webservice.dll
+D:\GITREPOSITORY\GITHUB\WMS\WMS.Webservice\obj\Debug\WMS.Webservice.pdb

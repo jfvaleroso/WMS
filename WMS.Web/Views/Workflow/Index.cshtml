@@ -1,0 +1,194 @@
+﻿@model WMS.Entities.Workflow
+
+@{
+    ViewBag.Title = "Workflow Maintenance";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<script type="text/javascript">
+    $(function () {
+        $('#DataTable').jtable({
+            title: '',
+            paging: true,
+            pageSize: 15,
+            sorting: false,
+            gotoPageArea: 'none',
+            pageSizeChangeArea: false,
+            columnSelectable: false,
+            actions: {
+                listAction: '@Url.Action("WorkflowListWithPaging")'
+            },
+            fields: {
+                Id: {
+                    key: true,
+                    list: false
+                },
+                View: {
+                    title: '',
+                    width: '1.3%',
+                     display: function (data) {
+                        var $img = $('<a data-toggle="tooltip" title="Click to manage." class="glyphicon glyphicon-th-list pointer" ' + '></a>');
+                        $img.on('click', function (event) {
+                            event.preventDefault();
+                            var url = '@Url.Action("Manage")' + '/' + data.record.SecuredId;
+                            window.location = url;
+                            return false;
+                        });
+                        return $img;
+                    }
+                },
+                Code: {
+                    title: 'Code'
+                },
+                Name: {
+                    title: 'Name'
+                },
+                Description: {
+                    title: 'Description'
+                },
+                Active: {
+                    title: 'Active',
+                    width: '1.3%',
+                    display: function (data) {
+                        var $img;
+                        if (data.record.Active) {
+                            $img = '<img class="center" src="@Url.Content("~/Content/images/active.png")" />';
+                        }
+                        else {
+                            $img = '<img class="center" src="@Url.Content("~/Content/images/inactive.png")" />';
+                        }
+                        return $img;
+                    }
+                },
+                DocumentMapping: {
+                    title: '',
+                    width: '1.1%',
+                    display: function (data) {
+                        var $documentMapping = '<a href=@Url.Action("Index", "DocumentMapping")/Manage/' + data.record.SecuredId + '><span data-toggle="tooltip" title="Click to manage documents."  class="glyphicon glyphicon-list-alt"></span></a>';
+                        return $documentMapping;
+                    }
+                },
+                WorkflowMapping: {
+                    title: '',
+                    width: '1.1%',
+                    display: function (data) {
+                        var $wofklowMapping = '<a href=@Url.Action("Index", "WorkflowMapping")/Manage/' + data.record.SecuredId + '><span data-toggle="tooltip" title="Click to manage wokflow."  class="glyphicon glyphicon-random"></span></a>';
+                        return $wofklowMapping;
+                    }
+                },
+                NotificationMapping: {
+                    title: '',
+                    width: '1.1%',
+                    display: function (data) {
+                        var $notificaitonMapping = '<a href=@Url.Action("Index", "NotificationMapping")/Manage/' + data.record.SecuredId + '><span data-toggle="tooltip" title="Click to manage notification."  class="glyphicon glyphicon-envelope"></span></a>';
+                        return $notificaitonMapping;
+                    }
+                },
+                Delete: {
+                    title: '',
+                    width: '1.1%',
+                    display: function (data) {
+                        var $img = $('<a data-toggle="tooltip" title="remove this item" class="glyphicon glyphicon-trash pointer" ' + '></a>');
+                        $img.on('click', function (event) {
+                            event.preventDefault();
+
+                            $('#modalConfirmation').modal('show');
+                            $('#Id').val(data.record.Id);
+                            return false;
+                        });
+                        return $img;
+                    }
+                }
+            },
+
+            toolbar: {
+                items: [
+
+                ]
+            }
+
+        });
+        //load table
+        $('#DataTable').jtable('load');
+        //with filtering
+
+        //Re-load records when user click 'load records' button.
+        $('#btnSearch').click(function (event) {
+            event.preventDefault();
+            var searhString = $('#searchString').val();
+            $('#DataTable').jtable('load', {
+                searchString: searhString
+            });
+        });
+
+        //Load all records when page is first shown
+        $('#btnSearch').click();
+
+    });
+
+</script>
+
+
+<div class="modal fade" id="modalConfirmation" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog modal-vertical-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                    &times;
+                </button>
+                <h4 class="modal-title">
+                    Confirmation
+                </h4>
+            </div>
+            <div class="modal-body">
+                <p class="small">Are you sure you want to delete?</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">
+                    Close
+                </button>
+                <button type="button" class="btn btn-primary" id="btnDelete">
+                    Confirm
+                </button>
+            </div>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>
+
+@using (Html.BeginForm())
+{
+
+
+
+    <div class="row">
+        <div class="col-lg-6">
+            <div class="input-group">
+                <span class="input-group-btn">
+
+                </span>
+            </div>
+        </div>
+        <div class="col-lg-6">
+            <div class="input-group">
+                <input type="text" class="form-control" placeholder="Search here..." autocomplete="off"
+                       name="searchString" id="searchString">
+                <span class="input-group-btn">
+                    <button class="btn btn-success" type="submit" id="btnSearch">
+                        Search
+                    </button>
+                </span>
+            </div>
+        </div>
+    </div>
+}
+<div class="table-wrapper small">
+    <div id="DataTable">
+    </div>
+</div>
+
+@Html.Hidden("Id")
+@Html.Hidden("New", Url.Action("New"))
+@Html.Hidden("Delete", Url.Action("Delete"))
+@Html.Hidden("EditTitle", "Modify Workflow")

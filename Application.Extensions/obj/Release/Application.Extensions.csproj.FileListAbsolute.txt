@@ -1,0 +1,10 @@
+D:\RDBelmonte\PROJECTS\PROJECT WMS\Application.Extensions\bin\Release\Application.Extensions.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\Application.Extensions\bin\Release\Application.Extensions.pdb
+D:\RDBelmonte\PROJECTS\PROJECT WMS\Application.Extensions\obj\Release\Application.Extensions.csprojResolveAssemblyReference.cache
+D:\RDBelmonte\PROJECTS\PROJECT WMS\Application.Extensions\obj\Release\Application.Extensions.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\Application.Extensions\obj\Release\Application.Extensions.pdb
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\Application.Extensions\bin\Release\Application.Extensions.dll
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\Application.Extensions\bin\Release\Application.Extensions.pdb
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\Application.Extensions\obj\Release\Application.Extensions.csprojResolveAssemblyReference.cache
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\Application.Extensions\obj\Release\Application.Extensions.dll
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\Application.Extensions\obj\Release\Application.Extensions.pdb

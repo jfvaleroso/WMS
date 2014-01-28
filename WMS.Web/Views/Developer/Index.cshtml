@@ -1,0 +1,51 @@
+﻿@{
+    ViewBag.Title = "Developer Api";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+<div class="page-header">
+   <strong>Available web api</strong> 
+</div>
+    <table class="table table-condensed table-hover small">
+        <tr>
+            <td>Get Workflow By Code</td>
+            <td>/GetWorkflowByCode/{code}</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Get Workflow Mapping by Id</td>
+            <td>/GetWorkflowMappingByWorkflow/{id}</td>
+
+            <td></td>
+        </tr>
+        <tr>
+            <td>Get Workflow Mapping by Id and Level</td>
+            <td>/GetWorkflowMappingByWorkflowAndLevel/{code}/{level}</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Get Document Mapping by Id</td>
+            <td>/GetDocumentMappingByWorkflow/{id}</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Get Notification Mapping by Id</td>
+            <td>/GetNotificationMappingByWorkflow/{id}</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Get Workflow Mapping by Id and status</td>
+            <td>/GetNotificationMappingByWorkflowAndStatus/{id}/{status}</td>
+            <td></td>
+        </tr>
+
+
+
+
+
+
+    </table>
+
+

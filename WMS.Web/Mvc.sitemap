@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<mvcSiteMap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xmlns="http://mvcsitemap.codeplex.com/schemas/MvcSiteMap-File-4.0"
+            xsi:schemaLocation="http://mvcsitemap.codeplex.com/schemas/MvcSiteMap-File-4.0 MvcSiteMapSchema.xsd">
+
+  <mvcSiteMapNode title="HOME" controller="Home" action="Index" >
+    <mvcSiteMapNode title="NEW SETUP" controller="Workflow" action="New"/>
+    <mvcSiteMapNode title="WORKFLOW" controller="Workflow" action="Index"/>
+
+
+    <mvcSiteMapNode title="MANAGE" area="Setting" controller="Process" action="Index">
+      <mvcSiteMapNode title="PROCESS" controller="Process" action="Index" area="Setting"/>
+      <mvcSiteMapNode title="SUBPROCESS" controller="SubProcess" action="Index" area="Setting"/>
+      <mvcSiteMapNode title="CLASSIFICATION" controller="Classification" action="Index" area="Setting"/>
+      <mvcSiteMapNode title="DOCUMENT" controller="Document" action="Index" area="Setting"/>
+      <mvcSiteMapNode title="STATUS" controller="Status" action="Index" area="Setting"/>
+      <mvcSiteMapNode title="EXTERNAL SETTING" controller="External" action="Index" roles="Super Admin"  area="Setting"/>
+
+
+    </mvcSiteMapNode>
+  
+    <mvcSiteMapNode title="DEVELOPER API" controller="Developer" action="Index"/>
+    <mvcSiteMapNode title="HELP" controller="Help" action="Index"/>
+  
+  </mvcSiteMapNode>
+
+</mvcSiteMap>

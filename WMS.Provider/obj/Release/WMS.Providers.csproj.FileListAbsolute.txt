@@ -1,0 +1,9 @@
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Provider\bin\Release\WMS.Providers.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Provider\bin\Release\WMS.Providers.pdb
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Provider\obj\Release\WMS.Providers.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Provider\obj\Release\WMS.Providers.pdb
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.Provider\bin\Release\WMS.Providers.dll
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.Provider\bin\Release\WMS.Providers.pdb
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.Provider\obj\Release\WMS.Providers.csprojResolveAssemblyReference.cache
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.Provider\obj\Release\WMS.Providers.dll
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.Provider\obj\Release\WMS.Providers.pdb

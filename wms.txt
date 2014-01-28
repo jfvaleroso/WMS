@@ -1,0 +1,610 @@
+USE [WMS]
+GO
+/****** Object:  StoredProcedure [dbo].[truncate_non_empty_table]    Script Date: 01/20/2014 12:58:34 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[truncate_non_empty_table]') AND type in (N'P', N'PC'))
+BEGIN
+EXEC dbo.sp_executesql @statement = N'create PROCEDURE [dbo].[truncate_non_empty_table]
+
+  @TableToTruncate                 VARCHAR(64)
+
+AS 
+
+BEGIN
+
+SET NOCOUNT ON
+
+-- GLOBAL VARIABLES
+DECLARE @i int
+DECLARE @Debug bit
+DECLARE @Recycle bit
+DECLARE @Verbose bit
+DECLARE @TableName varchar(80)
+DECLARE @ColumnName varchar(80)
+DECLARE @ReferencedTableName varchar(80)
+DECLARE @ReferencedColumnName varchar(80)
+DECLARE @ConstraintName varchar(250)
+
+DECLARE @CreateStatement varchar(max)
+DECLARE @DropStatement varchar(max)   
+DECLARE @TruncateStatement varchar(max)
+DECLARE @CreateStatementTemp varchar(max)
+DECLARE @DropStatementTemp varchar(max)
+DECLARE @TruncateStatementTemp varchar(max)
+DECLARE @Statement varchar(max)
+
+        -- 1 = Will not execute statements 
+ SET @Debug = 0
+        -- 0 = Will not create or truncate storage table
+        -- 1 = Will create or truncate storage table
+ SET @Recycle = 0
+        -- 1 = Will print a message on every step
+ set @Verbose = 1
+
+ SET @i = 1
+    SET @CreateStatement = ''ALTER TABLE [dbo].[<tablename>]  WITH NOCHECK ADD  CONSTRAINT [<constraintname>] FOREIGN KEY([<column>]) REFERENCES [dbo].[<reftable>] ([<refcolumn>])''
+    SET @DropStatement = ''ALTER TABLE [dbo].[<tablename>] DROP CONSTRAINT [<constraintname>]''
+    SET @TruncateStatement = ''TRUNCATE TABLE [<tablename>]''
+
+-- Drop Temporary tables
+
+IF OBJECT_ID(''tempdb..#FKs'') IS NOT NULL
+    DROP TABLE #FKs
+
+-- GET FKs
+SELECT ROW_NUMBER() OVER (ORDER BY OBJECT_NAME(parent_object_id), clm1.name) as ID,
+       OBJECT_NAME(constraint_object_id) as ConstraintName,
+       OBJECT_NAME(parent_object_id) as TableName,
+       clm1.name as ColumnName, 
+       OBJECT_NAME(referenced_object_id) as ReferencedTableName,
+       clm2.name as ReferencedColumnName
+  INTO #FKs
+  FROM sys.foreign_key_columns fk
+       JOIN sys.columns clm1 
+         ON fk.parent_column_id = clm1.column_id 
+            AND fk.parent_object_id = clm1.object_id
+       JOIN sys.columns clm2
+         ON fk.referenced_column_id = clm2.column_id 
+            AND fk.referenced_object_id= clm2.object_id
+ --WHERE OBJECT_NAME(parent_object_id) not in (''//tables that you do not wont to be truncated'')
+ WHERE OBJECT_NAME(referenced_object_id) = @TableToTruncate
+ ORDER BY OBJECT_NAME(parent_object_id)
+
+
+-- Prepare Storage Table
+IF Not EXISTS(SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_NAME = ''Internal_FK_Definition_Storage'')
+   BEGIN
+        IF @Verbose = 1
+     PRINT ''1. Creating Process Specific Tables...''
+
+  -- CREATE STORAGE TABLE IF IT DOES NOT EXISTS
+  CREATE TABLE [Internal_FK_Definition_Storage] 
+  (
+   ID int not null identity(1,1) primary key,
+   FK_Name varchar(250) not null,
+   FK_CreationStatement varchar(max) not null,
+   FK_DestructionStatement varchar(max) not null,
+   Table_TruncationStatement varchar(max) not null
+  ) 
+   END 
+ELSE
+   BEGIN
+        IF @Recycle = 0
+            BEGIN
+                IF @Verbose = 1
+       PRINT ''1. Truncating Process Specific Tables...''
+
+    -- TRUNCATE TABLE IF IT ALREADY EXISTS
+    TRUNCATE TABLE [Internal_FK_Definition_Storage]    
+      END
+      ELSE
+         PRINT ''1. Process specific table will be recycled from previous execution...''
+   END
+
+
+IF @Recycle = 0
+   BEGIN
+
+  IF @Verbose = 1
+     PRINT ''2. Backing up Foreign Key Definitions...''
+
+  -- Fetch and persist FKs             
+  WHILE (@i <= (SELECT MAX(ID) FROM #FKs))
+   BEGIN
+    SET @ConstraintName = (SELECT ConstraintName FROM #FKs WHERE ID = @i)
+    SET @TableName = (SELECT TableName FROM #FKs WHERE ID = @i)
+    SET @ColumnName = (SELECT ColumnName FROM #FKs WHERE ID = @i)
+    SET @ReferencedTableName = (SELECT ReferencedTableName FROM #FKs WHERE ID = @i)
+    SET @ReferencedColumnName = (SELECT ReferencedColumnName FROM #FKs WHERE ID = @i)
+
+    SET @DropStatementTemp = REPLACE(REPLACE(@DropStatement,''<tablename>'',@TableName),''<constraintname>'',@ConstraintName)
+    SET @CreateStatementTemp = REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(@CreateStatement,''<tablename>'',@TableName),''<column>'',@ColumnName),''<constraintname>'',@ConstraintName),''<reftable>'',@ReferencedTableName),''<refcolumn>'',@ReferencedColumnName)
+    SET @TruncateStatementTemp = REPLACE(@TruncateStatement,''<tablename>'',@TableName) 
+
+    INSERT INTO [Internal_FK_Definition_Storage]
+                        SELECT @ConstraintName, @CreateStatementTemp, @DropStatementTemp, @TruncateStatementTemp
+
+    SET @i = @i + 1
+
+    IF @Verbose = 1
+       PRINT ''  > Backing up ['' + @ConstraintName + ''] from ['' + @TableName + '']''
+
+    END   
+    END   
+    ELSE 
+       PRINT ''2. Backup up was recycled from previous execution...''
+
+       IF @Verbose = 1
+     PRINT ''3. Dropping Foreign Keys...''
+
+    -- DROP FOREING KEYS
+    SET @i = 1
+    WHILE (@i <= (SELECT MAX(ID) FROM [Internal_FK_Definition_Storage]))
+          BEGIN
+             SET @ConstraintName = (SELECT FK_Name FROM [Internal_FK_Definition_Storage] WHERE ID = @i)
+    SET @Statement = (SELECT FK_DestructionStatement FROM [Internal_FK_Definition_Storage] WITH (NOLOCK) WHERE ID = @i)
+
+    IF @Debug = 1 
+       PRINT @Statement
+    ELSE
+       EXEC(@Statement)
+
+    SET @i = @i + 1
+
+
+    IF @Verbose = 1
+       PRINT ''  > Dropping ['' + @ConstraintName + '']''
+
+             END     
+
+
+    IF @Verbose = 1
+       PRINT ''4. Truncating Tables...''
+
+    -- TRUNCATE TABLES
+-- SzP: commented out as the tables to be truncated might also contain tables that has foreign keys
+-- to resolve this the stored procedure should be called recursively, but I dont have the time to do it...          
+ /*
+    SET @i = 1
+    WHILE (@i <= (SELECT MAX(ID) FROM [Internal_FK_Definition_Storage]))
+          BEGIN
+
+    SET @Statement = (SELECT Table_TruncationStatement FROM [Internal_FK_Definition_Storage] WHERE ID = @i)
+
+    IF @Debug = 1 
+       PRINT @Statement
+    ELSE
+       EXEC(@Statement)
+
+    SET @i = @i + 1
+
+    IF @Verbose = 1
+       PRINT ''  > '' + @Statement
+          END
+*/          
+
+
+    IF @Verbose = 1
+       PRINT ''  > TRUNCATE TABLE ['' + @TableToTruncate + '']''
+
+    IF @Debug = 1 
+        PRINT ''TRUNCATE TABLE ['' + @TableToTruncate + '']''
+    ELSE
+        EXEC(''TRUNCATE TABLE ['' + @TableToTruncate + '']'')
+
+
+    IF @Verbose = 1
+       PRINT ''5. Re-creating Foreign Keys...''
+
+    -- CREATE FOREING KEYS
+    SET @i = 1
+    WHILE (@i <= (SELECT MAX(ID) FROM [Internal_FK_Definition_Storage]))
+          BEGIN
+             SET @ConstraintName = (SELECT FK_Name FROM [Internal_FK_Definition_Storage] WHERE ID = @i)
+    SET @Statement = (SELECT FK_CreationStatement FROM [Internal_FK_Definition_Storage] WHERE ID = @i)
+
+    IF @Debug = 1 
+       PRINT @Statement
+    ELSE
+       EXEC(@Statement)
+
+    SET @i = @i + 1
+
+
+    IF @Verbose = 1
+       PRINT ''  > Re-creating ['' + @ConstraintName + '']''
+
+          END
+
+    IF @Verbose = 1
+       PRINT ''6. Process Completed''
+
+
+END
+' 
+END
+GO
+/****** Object:  Table [dbo].[ApiUser]    Script Date: 01/20/2014 12:58:34 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[ApiUser]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [dbo].[ApiUser](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[Name] [nvarchar](80) NULL,
+	[Secret] [nvarchar](100) NULL,
+	[AppId] [nvarchar](50) NULL,
+	[Active] [bit] NULL,
+	[DateCreated] [datetime] NULL,
+	[CreatedBy] [nvarchar](80) NULL,
+	[DateModified] [datetime] NULL,
+	[ModifiedBy] [nvarchar](80) NULL,
+ CONSTRAINT [PK_ApiUser] PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
+) ON [PRIMARY]
+END
+GO
+/****** Object:  Table [dbo].[ActivityLogs]    Script Date: 01/20/2014 12:58:34 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[ActivityLogs]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [dbo].[ActivityLogs](
+	[Id] [bigint] IDENTITY(1,1) NOT NULL,
+	[Type] [nvarchar](80) NULL,
+	[Description] [nvarchar](500) NULL,
+	[Timestamp] [datetime] NULL,
+	[ExecutedBy] [nvarchar](80) NULL,
+ CONSTRAINT [PK_ActivityLogs] PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
+) ON [PRIMARY]
+END
+GO
+/****** Object:  Table [dbo].[Document]    Script Date: 01/20/2014 12:58:34 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[Document]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [dbo].[Document](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[Code] [nvarchar](50) NULL,
+	[Name] [nvarchar](100) NULL,
+	[Description] [nvarchar](200) NULL,
+	[Active] [bit] NULL,
+	[DateCreated] [datetime] NULL,
+	[CreatedBy] [nvarchar](80) NULL,
+	[DateModified] [datetime] NULL,
+	[ModifiedBy] [nvarchar](80) NULL,
+ CONSTRAINT [PK_WorkflowMapping] PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
+) ON [PRIMARY]
+END
+GO
+/****** Object:  Table [dbo].[Status]    Script Date: 01/20/2014 12:58:34 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[Status]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [dbo].[Status](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[Code] [nvarchar](50) NULL,
+	[Name] [nvarchar](100) NULL,
+	[Description] [nvarchar](200) NULL,
+	[Active] [bit] NULL,
+	[DateCreated] [datetime] NULL,
+	[CreatedBy] [nvarchar](80) NULL,
+	[DateModified] [datetime] NULL,
+	[ModifiedBy] [nvarchar](80) NULL,
+ CONSTRAINT [PK_Status] PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
+) ON [PRIMARY]
+END
+GO
+/****** Object:  Table [dbo].[Process]    Script Date: 01/20/2014 12:58:34 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[Process]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [dbo].[Process](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[SystemCode] [nvarchar](50) NULL,
+	[Code] [nvarchar](50) NULL,
+	[Name] [nvarchar](100) NULL,
+	[Description] [nvarchar](200) NULL,
+	[Active] [bit] NULL,
+	[DateCreated] [datetime] NULL,
+	[CreatedBy] [nvarchar](80) NULL,
+	[DateModified] [datetime] NULL,
+	[ModifiedBy] [nvarchar](80) NULL,
+ CONSTRAINT [PK_Process] PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
+) ON [PRIMARY]
+END
+GO
+/****** Object:  Table [dbo].[AuthToken]    Script Date: 01/20/2014 12:58:34 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[AuthToken]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [dbo].[AuthToken](
+	[Id] [int] NOT NULL,
+	[Token] [nvarchar](100) NULL,
+	[Expiration] [datetime] NULL,
+	[ApiUser_Id] [int] IDENTITY(1,1) NOT NULL,
+ CONSTRAINT [PK_AuthToken] PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
+) ON [PRIMARY]
+END
+GO
+/****** Object:  Table [dbo].[SubProcess]    Script Date: 01/20/2014 12:58:34 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[SubProcess]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [dbo].[SubProcess](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[Process_Id] [int] NULL,
+	[Code] [nvarchar](50) NULL,
+	[Name] [nvarchar](100) NULL,
+	[Description] [nvarchar](200) NULL,
+	[Active] [bit] NULL,
+	[DateCreated] [datetime] NULL,
+	[CreatedBy] [nvarchar](80) NULL,
+	[DateModified] [datetime] NULL,
+	[ModifiedBy] [nvarchar](80) NULL,
+ CONSTRAINT [PK_SubProcess] PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
+) ON [PRIMARY]
+END
+GO
+/****** Object:  Table [dbo].[Classification]    Script Date: 01/20/2014 12:58:34 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[Classification]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [dbo].[Classification](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[SubProcess_Id] [int] NULL,
+	[Code] [nvarchar](50) NULL,
+	[Name] [nvarchar](100) NULL,
+	[Description] [nvarchar](200) NULL,
+	[Active] [bit] NULL,
+	[DateCreated] [datetime] NULL,
+	[CreatedBy] [nvarchar](80) NULL,
+	[DateModified] [datetime] NULL,
+	[ModifiedBy] [nvarchar](80) NULL,
+ CONSTRAINT [PK_Classification] PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
+) ON [PRIMARY]
+END
+GO
+/****** Object:  Table [dbo].[Workflow]    Script Date: 01/20/2014 12:58:34 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[Workflow]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [dbo].[Workflow](
+	[Id] [bigint] IDENTITY(1,1) NOT NULL,
+	[Code] [nvarchar](50) NULL,
+	[Name] [nvarchar](100) NULL,
+	[Description] [nvarchar](200) NULL,
+	[Process_Id] [int] NULL,
+	[SubProcess_Id] [int] NULL,
+	[Classification_Id] [int] NULL,
+	[Version] [int] NULL,
+	[Active] [bit] NULL,
+	[Requestor] [nvarchar](300) NULL,
+	[DateCreated] [datetime] NULL,
+	[CreatedBy] [nvarchar](80) NULL,
+	[DateModified] [datetime] NULL,
+	[ModifiedBy] [nvarchar](80) NULL,
+ CONSTRAINT [PK_Workflow] PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
+) ON [PRIMARY]
+END
+GO
+/****** Object:  Table [dbo].[DocumentMapping]    Script Date: 01/20/2014 12:58:34 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[DocumentMapping]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [dbo].[DocumentMapping](
+	[Id] [bigint] IDENTITY(1,1) NOT NULL,
+	[Workflow_Id] [bigint] NULL,
+	[Document_Id] [int] NULL,
+	[Active] [bit] NULL,
+	[Mandatory] [bit] NULL,
+	[DateCreated] [datetime] NULL,
+	[CreatedBy] [nvarchar](80) NULL,
+	[DateModified] [datetime] NULL,
+	[ModifiedBy] [nvarchar](80) NULL,
+ CONSTRAINT [PK_DocumentMapping] PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
+) ON [PRIMARY]
+END
+GO
+/****** Object:  Table [dbo].[NotificationMapping]    Script Date: 01/20/2014 12:58:34 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[NotificationMapping]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [dbo].[NotificationMapping](
+	[Id] [bigint] IDENTITY(1,1) NOT NULL,
+	[Workflow_Id] [bigint] NULL,
+	[Status_Id] [int] NULL,
+	[EmailContent] [nvarchar](max) NULL,
+	[SMSContent] [nvarchar](500) NULL,
+	[Active] [bit] NULL,
+	[CreatedBy] [nvarchar](80) NULL,
+	[DateCreated] [datetime] NULL,
+	[ModifiedBy] [nvarchar](80) NULL,
+	[DateModified] [datetime] NULL,
+ CONSTRAINT [PK_Notification] PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
+) ON [PRIMARY]
+END
+GO
+/****** Object:  Table [dbo].[WorkflowMapping]    Script Date: 01/20/2014 12:58:34 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[WorkflowMapping]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [dbo].[WorkflowMapping](
+	[Id] [bigint] IDENTITY(1,1) NOT NULL,
+	[Workflow_Id] [bigint] NULL,
+	[LevelId] [int] NULL,
+	[SLA] [int] NULL,
+	[Operator] [nvarchar](10) NULL,
+	[Approver] [nvarchar](500) NULL,
+	[AlertTo] [nvarchar](500) NULL,
+	[SMSNotification] [bit] NULL,
+	[EmailNotification] [bit] NULL,
+	[Active] [bit] NULL,
+	[DateCreated] [datetime] NULL,
+	[CreatedBy] [nvarchar](80) NULL,
+	[DateModified] [datetime] NULL,
+	[ModifiedBy] [nvarchar](80) NULL,
+ CONSTRAINT [PK_WorkflowMapping_2] PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
+) ON [PRIMARY]
+END
+GO
+/****** Object:  ForeignKey [FK_AuthToken_AuthToken]    Script Date: 01/20/2014 12:58:34 ******/
+IF NOT EXISTS (SELECT * FROM sys.foreign_keys WHERE object_id = OBJECT_ID(N'[dbo].[FK_AuthToken_AuthToken]') AND parent_object_id = OBJECT_ID(N'[dbo].[AuthToken]'))
+ALTER TABLE [dbo].[AuthToken]  WITH CHECK ADD  CONSTRAINT [FK_AuthToken_AuthToken] FOREIGN KEY([ApiUser_Id])
+REFERENCES [dbo].[ApiUser] ([Id])
+GO
+IF  EXISTS (SELECT * FROM sys.foreign_keys WHERE object_id = OBJECT_ID(N'[dbo].[FK_AuthToken_AuthToken]') AND parent_object_id = OBJECT_ID(N'[dbo].[AuthToken]'))
+ALTER TABLE [dbo].[AuthToken] CHECK CONSTRAINT [FK_AuthToken_AuthToken]
+GO
+/****** Object:  ForeignKey [FK_Classification_SubProcess]    Script Date: 01/20/2014 12:58:34 ******/
+IF NOT EXISTS (SELECT * FROM sys.foreign_keys WHERE object_id = OBJECT_ID(N'[dbo].[FK_Classification_SubProcess]') AND parent_object_id = OBJECT_ID(N'[dbo].[Classification]'))
+ALTER TABLE [dbo].[Classification]  WITH CHECK ADD  CONSTRAINT [FK_Classification_SubProcess] FOREIGN KEY([SubProcess_Id])
+REFERENCES [dbo].[SubProcess] ([Id])
+GO
+IF  EXISTS (SELECT * FROM sys.foreign_keys WHERE object_id = OBJECT_ID(N'[dbo].[FK_Classification_SubProcess]') AND parent_object_id = OBJECT_ID(N'[dbo].[Classification]'))
+ALTER TABLE [dbo].[Classification] CHECK CONSTRAINT [FK_Classification_SubProcess]
+GO
+/****** Object:  ForeignKey [FK_DocumentMapping_Document]    Script Date: 01/20/2014 12:58:34 ******/
+IF NOT EXISTS (SELECT * FROM sys.foreign_keys WHERE object_id = OBJECT_ID(N'[dbo].[FK_DocumentMapping_Document]') AND parent_object_id = OBJECT_ID(N'[dbo].[DocumentMapping]'))
+ALTER TABLE [dbo].[DocumentMapping]  WITH CHECK ADD  CONSTRAINT [FK_DocumentMapping_Document] FOREIGN KEY([Document_Id])
+REFERENCES [dbo].[Document] ([Id])
+GO
+IF  EXISTS (SELECT * FROM sys.foreign_keys WHERE object_id = OBJECT_ID(N'[dbo].[FK_DocumentMapping_Document]') AND parent_object_id = OBJECT_ID(N'[dbo].[DocumentMapping]'))
+ALTER TABLE [dbo].[DocumentMapping] CHECK CONSTRAINT [FK_DocumentMapping_Document]
+GO
+/****** Object:  ForeignKey [FK_DocumentMapping_Workflow]    Script Date: 01/20/2014 12:58:34 ******/
+IF NOT EXISTS (SELECT * FROM sys.foreign_keys WHERE object_id = OBJECT_ID(N'[dbo].[FK_DocumentMapping_Workflow]') AND parent_object_id = OBJECT_ID(N'[dbo].[DocumentMapping]'))
+ALTER TABLE [dbo].[DocumentMapping]  WITH CHECK ADD  CONSTRAINT [FK_DocumentMapping_Workflow] FOREIGN KEY([Workflow_Id])
+REFERENCES [dbo].[Workflow] ([Id])
+GO
+IF  EXISTS (SELECT * FROM sys.foreign_keys WHERE object_id = OBJECT_ID(N'[dbo].[FK_DocumentMapping_Workflow]') AND parent_object_id = OBJECT_ID(N'[dbo].[DocumentMapping]'))
+ALTER TABLE [dbo].[DocumentMapping] CHECK CONSTRAINT [FK_DocumentMapping_Workflow]
+GO
+/****** Object:  ForeignKey [FK_Notification_Status]    Script Date: 01/20/2014 12:58:34 ******/
+IF NOT EXISTS (SELECT * FROM sys.foreign_keys WHERE object_id = OBJECT_ID(N'[dbo].[FK_Notification_Status]') AND parent_object_id = OBJECT_ID(N'[dbo].[NotificationMapping]'))
+ALTER TABLE [dbo].[NotificationMapping]  WITH CHECK ADD  CONSTRAINT [FK_Notification_Status] FOREIGN KEY([Status_Id])
+REFERENCES [dbo].[Status] ([Id])
+GO
+IF  EXISTS (SELECT * FROM sys.foreign_keys WHERE object_id = OBJECT_ID(N'[dbo].[FK_Notification_Status]') AND parent_object_id = OBJECT_ID(N'[dbo].[NotificationMapping]'))
+ALTER TABLE [dbo].[NotificationMapping] CHECK CONSTRAINT [FK_Notification_Status]
+GO
+/****** Object:  ForeignKey [FK_Notification_Workflow]    Script Date: 01/20/2014 12:58:34 ******/
+IF NOT EXISTS (SELECT * FROM sys.foreign_keys WHERE object_id = OBJECT_ID(N'[dbo].[FK_Notification_Workflow]') AND parent_object_id = OBJECT_ID(N'[dbo].[NotificationMapping]'))
+ALTER TABLE [dbo].[NotificationMapping]  WITH CHECK ADD  CONSTRAINT [FK_Notification_Workflow] FOREIGN KEY([Workflow_Id])
+REFERENCES [dbo].[Workflow] ([Id])
+GO
+IF  EXISTS (SELECT * FROM sys.foreign_keys WHERE object_id = OBJECT_ID(N'[dbo].[FK_Notification_Workflow]') AND parent_object_id = OBJECT_ID(N'[dbo].[NotificationMapping]'))
+ALTER TABLE [dbo].[NotificationMapping] CHECK CONSTRAINT [FK_Notification_Workflow]
+GO
+/****** Object:  ForeignKey [FK_SubProcess_Process]    Script Date: 01/20/2014 12:58:34 ******/
+IF NOT EXISTS (SELECT * FROM sys.foreign_keys WHERE object_id = OBJECT_ID(N'[dbo].[FK_SubProcess_Process]') AND parent_object_id = OBJECT_ID(N'[dbo].[SubProcess]'))
+ALTER TABLE [dbo].[SubProcess]  WITH NOCHECK ADD  CONSTRAINT [FK_SubProcess_Process] FOREIGN KEY([Process_Id])
+REFERENCES [dbo].[Process] ([Id])
+GO
+IF  EXISTS (SELECT * FROM sys.foreign_keys WHERE object_id = OBJECT_ID(N'[dbo].[FK_SubProcess_Process]') AND parent_object_id = OBJECT_ID(N'[dbo].[SubProcess]'))
+ALTER TABLE [dbo].[SubProcess] CHECK CONSTRAINT [FK_SubProcess_Process]
+GO
+/****** Object:  ForeignKey [FK_Workflow_Classification]    Script Date: 01/20/2014 12:58:34 ******/
+IF NOT EXISTS (SELECT * FROM sys.foreign_keys WHERE object_id = OBJECT_ID(N'[dbo].[FK_Workflow_Classification]') AND parent_object_id = OBJECT_ID(N'[dbo].[Workflow]'))
+ALTER TABLE [dbo].[Workflow]  WITH CHECK ADD  CONSTRAINT [FK_Workflow_Classification] FOREIGN KEY([Classification_Id])
+REFERENCES [dbo].[Classification] ([Id])
+GO
+IF  EXISTS (SELECT * FROM sys.foreign_keys WHERE object_id = OBJECT_ID(N'[dbo].[FK_Workflow_Classification]') AND parent_object_id = OBJECT_ID(N'[dbo].[Workflow]'))
+ALTER TABLE [dbo].[Workflow] CHECK CONSTRAINT [FK_Workflow_Classification]
+GO
+/****** Object:  ForeignKey [FK_Workflow_Process]    Script Date: 01/20/2014 12:58:34 ******/
+IF NOT EXISTS (SELECT * FROM sys.foreign_keys WHERE object_id = OBJECT_ID(N'[dbo].[FK_Workflow_Process]') AND parent_object_id = OBJECT_ID(N'[dbo].[Workflow]'))
+ALTER TABLE [dbo].[Workflow]  WITH NOCHECK ADD  CONSTRAINT [FK_Workflow_Process] FOREIGN KEY([Process_Id])
+REFERENCES [dbo].[Process] ([Id])
+GO
+IF  EXISTS (SELECT * FROM sys.foreign_keys WHERE object_id = OBJECT_ID(N'[dbo].[FK_Workflow_Process]') AND parent_object_id = OBJECT_ID(N'[dbo].[Workflow]'))
+ALTER TABLE [dbo].[Workflow] CHECK CONSTRAINT [FK_Workflow_Process]
+GO
+/****** Object:  ForeignKey [FK_Workflow_SubProcess]    Script Date: 01/20/2014 12:58:34 ******/
+IF NOT EXISTS (SELECT * FROM sys.foreign_keys WHERE object_id = OBJECT_ID(N'[dbo].[FK_Workflow_SubProcess]') AND parent_object_id = OBJECT_ID(N'[dbo].[Workflow]'))
+ALTER TABLE [dbo].[Workflow]  WITH CHECK ADD  CONSTRAINT [FK_Workflow_SubProcess] FOREIGN KEY([SubProcess_Id])
+REFERENCES [dbo].[SubProcess] ([Id])
+GO
+IF  EXISTS (SELECT * FROM sys.foreign_keys WHERE object_id = OBJECT_ID(N'[dbo].[FK_Workflow_SubProcess]') AND parent_object_id = OBJECT_ID(N'[dbo].[Workflow]'))
+ALTER TABLE [dbo].[Workflow] CHECK CONSTRAINT [FK_Workflow_SubProcess]
+GO
+/****** Object:  ForeignKey [FK_WorkflowMapping_Workflow]    Script Date: 01/20/2014 12:58:34 ******/
+IF NOT EXISTS (SELECT * FROM sys.foreign_keys WHERE object_id = OBJECT_ID(N'[dbo].[FK_WorkflowMapping_Workflow]') AND parent_object_id = OBJECT_ID(N'[dbo].[WorkflowMapping]'))
+ALTER TABLE [dbo].[WorkflowMapping]  WITH CHECK ADD  CONSTRAINT [FK_WorkflowMapping_Workflow] FOREIGN KEY([Workflow_Id])
+REFERENCES [dbo].[Workflow] ([Id])
+GO
+IF  EXISTS (SELECT * FROM sys.foreign_keys WHERE object_id = OBJECT_ID(N'[dbo].[FK_WorkflowMapping_Workflow]') AND parent_object_id = OBJECT_ID(N'[dbo].[WorkflowMapping]'))
+ALTER TABLE [dbo].[WorkflowMapping] CHECK CONSTRAINT [FK_WorkflowMapping_Workflow]
+GO

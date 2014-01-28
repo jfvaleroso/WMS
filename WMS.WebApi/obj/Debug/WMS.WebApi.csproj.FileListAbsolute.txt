@@ -1,0 +1,503 @@
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\WMS.WebApi.dll.config
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\WMS.WebApi.dll
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\WMS.WebApi.pdb
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\Antlr3.Runtime.dll
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\Castle.Core.dll
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\Castle.Windsor.dll
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\EntityFramework.dll
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\Microsoft.Data.Edm.dll
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\Microsoft.Data.OData.dll
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\Newtonsoft.Json.dll
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\System.Net.Http.dll
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\System.Net.Http.Formatting.dll
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\System.Net.Http.WebRequest.dll
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\System.Spatial.dll
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\System.Web.Helpers.dll
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\System.Web.Http.dll
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\System.Web.Http.OData.dll
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\System.Web.Http.Tracing.dll
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\System.Web.Http.WebHost.dll
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\System.Web.Mvc.dll
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\System.Web.Optimization.dll
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\System.Web.Providers.dll
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\System.Web.Razor.dll
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\System.Web.WebPages.Deployment.dll
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\System.Web.WebPages.dll
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\System.Web.WebPages.Razor.dll
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\WebGrease.dll
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\WMS.Core.dll
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\WMS.Dependency.dll
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\WMS.Entities.dll
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\WMS.Helper.dll
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\NHibernate.dll
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\WMS.NHibernateBase.dll
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\WMS.Webservice.dll
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\FluentNHibernate.dll
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\Iesi.Collections.dll
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\WMS.Configurations.dll
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\WMS.Core.pdb
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\WMS.Dependency.pdb
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\WMS.Entities.pdb
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\WMS.Helper.pdb
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\Castle.Core.xml
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\Castle.Windsor.xml
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\EntityFramework.xml
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\Newtonsoft.Json.xml
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\System.Net.Http.xml
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\System.Net.Http.Formatting.xml
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\System.Net.Http.WebRequest.xml
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\System.Web.Helpers.xml
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\System.Web.Http.xml
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\System.Web.Http.WebHost.xml
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\System.Web.Mvc.xml
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\System.Web.Razor.xml
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\System.Web.WebPages.xml
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\System.Web.WebPages.Deployment.xml
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\System.Web.WebPages.Razor.xml
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\System.Web.Http.Tracing.xml
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\System.Web.Http.OData.xml
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\Microsoft.Data.Edm.xml
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\Microsoft.Data.OData.xml
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\System.Spatial.xml
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\NHibernate.xml
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\WMS.NHibernateBase.pdb
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\WMS.Webservice.pdb
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\FluentNHibernate.xml
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\Iesi.Collections.xml
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\WMS.Configurations.pdb
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\de\System.Spatial.resources.dll
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\es\System.Spatial.resources.dll
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\fr\System.Spatial.resources.dll
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\it\System.Spatial.resources.dll
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\ja\System.Spatial.resources.dll
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\ko\System.Spatial.resources.dll
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\ru\System.Spatial.resources.dll
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\obj\Debug\WMS.WebApi.csprojResolveAssemblyReference.cache
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\obj\Debug\WMS.WebApi.dll
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\obj\Debug\WMS.WebApi.pdb
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\WMS.WebApi.dll.config
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\WMS.WebApi.dll
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\WMS.WebApi.pdb
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\Antlr3.Runtime.dll
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\Castle.Core.dll
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\Castle.Windsor.dll
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\EntityFramework.dll
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\Microsoft.Data.Edm.dll
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\Microsoft.Data.OData.dll
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\Newtonsoft.Json.dll
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\System.Net.Http.dll
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\System.Net.Http.Formatting.dll
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\System.Net.Http.WebRequest.dll
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\System.Spatial.dll
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\System.Web.Helpers.dll
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\System.Web.Http.dll
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\System.Web.Http.OData.dll
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\System.Web.Http.Tracing.dll
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\System.Web.Http.WebHost.dll
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\System.Web.Mvc.dll
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\System.Web.Optimization.dll
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\System.Web.Providers.dll
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\System.Web.Razor.dll
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\System.Web.WebPages.Deployment.dll
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\System.Web.WebPages.dll
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\System.Web.WebPages.Razor.dll
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\WebGrease.dll
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\WMS.Core.dll
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\WMS.Dependency.dll
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\WMS.Entities.dll
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\WMS.Helper.dll
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\NHibernate.dll
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\WMS.NHibernateBase.dll
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\WMS.Webservice.dll
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\FluentNHibernate.dll
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\Iesi.Collections.dll
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\WMS.Configurations.dll
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\WMS.Core.pdb
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\WMS.Dependency.pdb
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\WMS.Entities.pdb
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\WMS.Helper.pdb
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\Castle.Core.xml
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\Castle.Windsor.xml
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\EntityFramework.xml
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\Newtonsoft.Json.xml
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\System.Net.Http.xml
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\System.Net.Http.Formatting.xml
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\System.Net.Http.WebRequest.xml
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\System.Web.Helpers.xml
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\System.Web.Http.xml
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\System.Web.Http.WebHost.xml
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\System.Web.Mvc.xml
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\System.Web.Razor.xml
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\System.Web.WebPages.xml
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\System.Web.WebPages.Deployment.xml
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\System.Web.WebPages.Razor.xml
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\System.Web.Http.Tracing.xml
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\System.Web.Http.OData.xml
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\Microsoft.Data.Edm.xml
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\Microsoft.Data.OData.xml
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\System.Spatial.xml
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\NHibernate.xml
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\WMS.NHibernateBase.pdb
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\WMS.Webservice.pdb
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\FluentNHibernate.xml
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\Iesi.Collections.xml
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\WMS.Configurations.pdb
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\de\System.Spatial.resources.dll
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\es\System.Spatial.resources.dll
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\fr\System.Spatial.resources.dll
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\it\System.Spatial.resources.dll
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\ja\System.Spatial.resources.dll
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\ko\System.Spatial.resources.dll
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\ru\System.Spatial.resources.dll
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\obj\Debug\WMS.WebApi.csprojResolveAssemblyReference.cache
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\obj\Debug\WMS.WebApi.dll
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\obj\Debug\WMS.WebApi.pdb
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\WMS.WebApi.Entities.dll
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.WebApi\bin\WMS.WebApi.Entities.pdb
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.WebApi\bin\WMS.WebApi.dll.config
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.WebApi\bin\WMS.WebApi.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.WebApi\bin\WMS.WebApi.pdb
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.WebApi\bin\Antlr3.Runtime.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.WebApi\bin\Castle.Core.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.WebApi\bin\Castle.Windsor.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.WebApi\bin\EntityFramework.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.WebApi\bin\Microsoft.Data.Edm.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.WebApi\bin\Microsoft.Data.OData.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.WebApi\bin\Microsoft.Web.Infrastructure.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.WebApi\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.WebApi\bin\Newtonsoft.Json.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.WebApi\bin\System.Net.Http.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.WebApi\bin\System.Net.Http.Formatting.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.WebApi\bin\System.Net.Http.WebRequest.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.WebApi\bin\System.Spatial.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.WebApi\bin\System.Web.Helpers.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.WebApi\bin\System.Web.Http.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.WebApi\bin\System.Web.Http.OData.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.WebApi\bin\System.Web.Http.Tracing.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.WebApi\bin\System.Web.Http.WebHost.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.WebApi\bin\System.Web.Mvc.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.WebApi\bin\System.Web.Optimization.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.WebApi\bin\System.Web.Providers.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.WebApi\bin\System.Web.Razor.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.WebApi\bin\System.Web.WebPages.Deployment.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.WebApi\bin\System.Web.WebPages.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.WebApi\bin\System.Web.WebPages.Razor.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.WebApi\bin\WebGrease.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.WebApi\bin\WMS.Core.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.WebApi\bin\WMS.Dependency.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.WebApi\bin\WMS.Entities.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.WebApi\bin\WMS.Helper.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.WebApi\bin\WMS.WebApi.Entities.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.WebApi\bin\NHibernate.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.WebApi\bin\WMS.NHibernateBase.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.WebApi\bin\WMS.Webservice.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.WebApi\bin\FluentNHibernate.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.WebApi\bin\Iesi.Collections.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.WebApi\bin\WMS.Configurations.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.WebApi\bin\WMS.Core.pdb
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.WebApi\bin\WMS.Dependency.pdb
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.WebApi\bin\WMS.Entities.pdb
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.WebApi\bin\WMS.Helper.pdb
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.WebApi\bin\WMS.WebApi.Entities.pdb
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.WebApi\bin\Castle.Core.xml
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.WebApi\bin\Castle.Windsor.xml
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.WebApi\bin\EntityFramework.xml
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.WebApi\bin\Newtonsoft.Json.xml
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.WebApi\bin\System.Net.Http.xml
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.WebApi\bin\System.Net.Http.Formatting.xml
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.WebApi\bin\System.Net.Http.WebRequest.xml
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.WebApi\bin\System.Web.Helpers.xml
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.WebApi\bin\System.Web.Http.xml
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.WebApi\bin\System.Web.Http.WebHost.xml
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.WebApi\bin\System.Web.Mvc.xml
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.WebApi\bin\System.Web.Razor.xml
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.WebApi\bin\System.Web.WebPages.xml
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.WebApi\bin\System.Web.WebPages.Deployment.xml
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.WebApi\bin\System.Web.WebPages.Razor.xml
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.WebApi\bin\System.Web.Http.Tracing.xml
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.WebApi\bin\System.Web.Http.OData.xml
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.WebApi\bin\Microsoft.Data.Edm.xml
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.WebApi\bin\Microsoft.Data.OData.xml
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.WebApi\bin\System.Spatial.xml
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.WebApi\bin\NHibernate.xml
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.WebApi\bin\WMS.NHibernateBase.pdb
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.WebApi\bin\WMS.Webservice.pdb
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.WebApi\bin\FluentNHibernate.xml
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.WebApi\bin\Iesi.Collections.xml
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.WebApi\bin\WMS.Configurations.pdb
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.WebApi\bin\de\Microsoft.Data.Edm.resources.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.WebApi\bin\es\Microsoft.Data.Edm.resources.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.WebApi\bin\fr\Microsoft.Data.Edm.resources.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.WebApi\bin\it\Microsoft.Data.Edm.resources.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.WebApi\bin\ja\Microsoft.Data.Edm.resources.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.WebApi\bin\ko\Microsoft.Data.Edm.resources.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.WebApi\bin\ru\Microsoft.Data.Edm.resources.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.WebApi\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.WebApi\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.WebApi\bin\de\Microsoft.Data.OData.resources.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.WebApi\bin\es\Microsoft.Data.OData.resources.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.WebApi\bin\fr\Microsoft.Data.OData.resources.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.WebApi\bin\it\Microsoft.Data.OData.resources.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.WebApi\bin\ja\Microsoft.Data.OData.resources.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.WebApi\bin\ko\Microsoft.Data.OData.resources.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.WebApi\bin\ru\Microsoft.Data.OData.resources.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.WebApi\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.WebApi\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.WebApi\bin\de\System.Spatial.resources.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.WebApi\bin\es\System.Spatial.resources.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.WebApi\bin\fr\System.Spatial.resources.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.WebApi\bin\it\System.Spatial.resources.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.WebApi\bin\ja\System.Spatial.resources.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.WebApi\bin\ko\System.Spatial.resources.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.WebApi\bin\ru\System.Spatial.resources.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.WebApi\bin\zh-Hans\System.Spatial.resources.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.WebApi\bin\zh-Hant\System.Spatial.resources.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.WebApi\obj\Debug\WMS.WebApi.csprojResolveAssemblyReference.cache
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.WebApi\obj\Debug\WMS.WebApi.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.WebApi\obj\Debug\WMS.WebApi.pdb
+C:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\WMS.WebApi.dll.config
+C:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\WMS.WebApi.dll
+C:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\WMS.WebApi.pdb
+C:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\Antlr3.Runtime.dll
+C:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\Castle.Core.dll
+C:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\Castle.Windsor.dll
+C:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\EntityFramework.dll
+C:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\Microsoft.Data.Edm.dll
+C:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\Microsoft.Data.OData.dll
+C:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\Microsoft.Web.Infrastructure.dll
+C:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\Newtonsoft.Json.dll
+C:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\System.Net.Http.dll
+C:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\System.Net.Http.Formatting.dll
+C:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\System.Net.Http.WebRequest.dll
+C:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\System.Spatial.dll
+C:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\System.Web.Helpers.dll
+C:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\System.Web.Http.dll
+C:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\System.Web.Http.OData.dll
+C:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\System.Web.Http.Tracing.dll
+C:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\System.Web.Http.WebHost.dll
+C:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\System.Web.Mvc.dll
+C:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\System.Web.Optimization.dll
+C:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\System.Web.Providers.dll
+C:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\System.Web.Razor.dll
+C:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\System.Web.WebPages.Deployment.dll
+C:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\System.Web.WebPages.dll
+C:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\System.Web.WebPages.Razor.dll
+C:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\WebGrease.dll
+C:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\WMS.Core.dll
+C:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\WMS.Dependency.dll
+C:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\WMS.Entities.dll
+C:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\WMS.Helper.dll
+C:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\WMS.WebApi.Entities.dll
+C:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\NHibernate.dll
+C:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\WMS.NHibernateBase.dll
+C:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\WMS.Webservice.dll
+C:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\FluentNHibernate.dll
+C:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\Iesi.Collections.dll
+C:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\WMS.Configurations.dll
+C:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\WMS.Core.pdb
+C:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\WMS.Dependency.pdb
+C:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\WMS.Entities.pdb
+C:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\WMS.Helper.pdb
+C:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\WMS.WebApi.Entities.pdb
+C:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\Castle.Core.xml
+C:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\Castle.Windsor.xml
+C:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\EntityFramework.xml
+C:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\Newtonsoft.Json.xml
+C:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\System.Net.Http.xml
+C:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\System.Net.Http.Formatting.xml
+C:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\System.Net.Http.WebRequest.xml
+C:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\System.Web.Helpers.xml
+C:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\System.Web.Http.xml
+C:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\System.Web.Http.WebHost.xml
+C:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\System.Web.Mvc.xml
+C:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\System.Web.Razor.xml
+C:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\System.Web.WebPages.xml
+C:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\System.Web.WebPages.Deployment.xml
+C:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\System.Web.WebPages.Razor.xml
+C:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\System.Web.Http.Tracing.xml
+C:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\System.Web.Http.OData.xml
+C:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\Microsoft.Data.Edm.xml
+C:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\Microsoft.Data.OData.xml
+C:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\System.Spatial.xml
+C:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\NHibernate.xml
+C:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\WMS.NHibernateBase.pdb
+C:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\WMS.Webservice.pdb
+C:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\FluentNHibernate.xml
+C:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\Iesi.Collections.xml
+C:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\WMS.Configurations.pdb
+C:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\de\Microsoft.Data.Edm.resources.dll
+C:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\es\Microsoft.Data.Edm.resources.dll
+C:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\it\Microsoft.Data.Edm.resources.dll
+C:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\de\Microsoft.Data.OData.resources.dll
+C:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\es\Microsoft.Data.OData.resources.dll
+C:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\fr\Microsoft.Data.OData.resources.dll
+C:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\it\Microsoft.Data.OData.resources.dll
+C:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\ja\Microsoft.Data.OData.resources.dll
+C:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\ko\Microsoft.Data.OData.resources.dll
+C:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\ru\Microsoft.Data.OData.resources.dll
+C:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\de\System.Spatial.resources.dll
+C:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\es\System.Spatial.resources.dll
+C:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\fr\System.Spatial.resources.dll
+C:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\it\System.Spatial.resources.dll
+C:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\ja\System.Spatial.resources.dll
+C:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\ko\System.Spatial.resources.dll
+C:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\ru\System.Spatial.resources.dll
+C:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\zh-Hans\System.Spatial.resources.dll
+C:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\zh-Hant\System.Spatial.resources.dll
+C:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\obj\Debug\WMS.WebApi.csprojResolveAssemblyReference.cache
+C:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\obj\Debug\WMS.WebApi.dll
+C:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\obj\Debug\WMS.WebApi.pdb
+D:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\WMS.WebApi.dll.config
+D:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\WMS.WebApi.dll
+D:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\WMS.WebApi.pdb
+D:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\Antlr3.Runtime.dll
+D:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\Castle.Core.dll
+D:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\Castle.Windsor.dll
+D:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\EntityFramework.dll
+D:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\Microsoft.Data.Edm.dll
+D:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\Microsoft.Data.OData.dll
+D:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\Microsoft.Web.Infrastructure.dll
+D:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+D:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\Newtonsoft.Json.dll
+D:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\System.Net.Http.dll
+D:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\System.Net.Http.Formatting.dll
+D:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\System.Net.Http.WebRequest.dll
+D:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\System.Spatial.dll
+D:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\System.Web.Helpers.dll
+D:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\System.Web.Http.dll
+D:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\System.Web.Http.OData.dll
+D:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\System.Web.Http.Tracing.dll
+D:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\System.Web.Http.WebHost.dll
+D:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\System.Web.Mvc.dll
+D:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\System.Web.Optimization.dll
+D:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\System.Web.Providers.dll
+D:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\System.Web.Razor.dll
+D:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\System.Web.WebPages.Deployment.dll
+D:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\System.Web.WebPages.dll
+D:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\System.Web.WebPages.Razor.dll
+D:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\WebGrease.dll
+D:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\WMS.Core.dll
+D:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\WMS.Dependency.dll
+D:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\WMS.Entities.dll
+D:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\WMS.Helper.dll
+D:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\WMS.WebApi.Entities.dll
+D:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\NHibernate.dll
+D:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\WMS.NHibernateBase.dll
+D:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\WMS.Webservice.dll
+D:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\FluentNHibernate.dll
+D:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\Iesi.Collections.dll
+D:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\WMS.Configurations.dll
+D:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\WMS.Core.pdb
+D:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\WMS.Dependency.pdb
+D:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\WMS.Entities.pdb
+D:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\WMS.Helper.pdb
+D:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\WMS.WebApi.Entities.pdb
+D:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\Castle.Core.xml
+D:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\Castle.Windsor.xml
+D:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\EntityFramework.xml
+D:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\Newtonsoft.Json.xml
+D:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\System.Net.Http.xml
+D:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\System.Net.Http.Formatting.xml
+D:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\System.Net.Http.WebRequest.xml
+D:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\System.Web.Helpers.xml
+D:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\System.Web.Http.xml
+D:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\System.Web.Http.WebHost.xml
+D:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\System.Web.Mvc.xml
+D:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\System.Web.Razor.xml
+D:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\System.Web.WebPages.xml
+D:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\System.Web.WebPages.Deployment.xml
+D:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\System.Web.WebPages.Razor.xml
+D:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\System.Web.Http.Tracing.xml
+D:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\System.Web.Http.OData.xml
+D:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\Microsoft.Data.Edm.xml
+D:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\Microsoft.Data.OData.xml
+D:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\System.Spatial.xml
+D:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\NHibernate.xml
+D:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\WMS.NHibernateBase.pdb
+D:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\WMS.Webservice.pdb
+D:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\FluentNHibernate.xml
+D:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\Iesi.Collections.xml
+D:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\WMS.Configurations.pdb
+D:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\de\Microsoft.Data.Edm.resources.dll
+D:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\es\Microsoft.Data.Edm.resources.dll
+D:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\fr\Microsoft.Data.Edm.resources.dll
+D:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\it\Microsoft.Data.Edm.resources.dll
+D:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\ja\Microsoft.Data.Edm.resources.dll
+D:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\ko\Microsoft.Data.Edm.resources.dll
+D:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\ru\Microsoft.Data.Edm.resources.dll
+D:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+D:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+D:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\de\Microsoft.Data.OData.resources.dll
+D:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\es\Microsoft.Data.OData.resources.dll
+D:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\fr\Microsoft.Data.OData.resources.dll
+D:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\it\Microsoft.Data.OData.resources.dll
+D:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\ja\Microsoft.Data.OData.resources.dll
+D:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\ko\Microsoft.Data.OData.resources.dll
+D:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\ru\Microsoft.Data.OData.resources.dll
+D:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+D:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+D:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\de\System.Spatial.resources.dll
+D:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\es\System.Spatial.resources.dll
+D:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\fr\System.Spatial.resources.dll
+D:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\it\System.Spatial.resources.dll
+D:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\ja\System.Spatial.resources.dll
+D:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\ko\System.Spatial.resources.dll
+D:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\ru\System.Spatial.resources.dll
+D:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\zh-Hans\System.Spatial.resources.dll
+D:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\bin\zh-Hant\System.Spatial.resources.dll
+D:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\obj\Debug\WMS.WebApi.csprojResolveAssemblyReference.cache
+D:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\obj\Debug\WMS.WebApi.dll
+D:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi\obj\Debug\WMS.WebApi.pdb

@@ -1,0 +1,34 @@
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.NHibernateBase\bin\Release\WMS.NHibernateBase.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.NHibernateBase\bin\Release\WMS.NHibernateBase.pdb
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.NHibernateBase\bin\Release\FluentNHibernate.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.NHibernateBase\bin\Release\Iesi.Collections.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.NHibernateBase\bin\Release\NHibernate.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.NHibernateBase\bin\Release\WMS.Core.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.NHibernateBase\bin\Release\WMS.Entities.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.NHibernateBase\bin\Release\WMS.Helper.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.NHibernateBase\bin\Release\WMS.Core.pdb
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.NHibernateBase\bin\Release\WMS.Entities.pdb
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.NHibernateBase\bin\Release\WMS.Helper.pdb
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.NHibernateBase\bin\Release\FluentNHibernate.xml
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.NHibernateBase\bin\Release\Iesi.Collections.xml
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.NHibernateBase\bin\Release\NHibernate.xml
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.NHibernateBase\obj\Release\WMS.NHibernateBase.csprojResolveAssemblyReference.cache
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.NHibernateBase\obj\Release\WMS.NHibernateBase.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.NHibernateBase\obj\Release\WMS.NHibernateBase.pdb
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.NHibernateBase\bin\Release\WMS.NHibernateBase.dll
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.NHibernateBase\bin\Release\WMS.NHibernateBase.pdb
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.NHibernateBase\bin\Release\FluentNHibernate.dll
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.NHibernateBase\bin\Release\Iesi.Collections.dll
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.NHibernateBase\bin\Release\NHibernate.dll
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.NHibernateBase\bin\Release\WMS.Core.dll
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.NHibernateBase\bin\Release\WMS.Entities.dll
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.NHibernateBase\bin\Release\WMS.Helper.dll
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.NHibernateBase\bin\Release\WMS.Core.pdb
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.NHibernateBase\bin\Release\WMS.Entities.pdb
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.NHibernateBase\bin\Release\WMS.Helper.pdb
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.NHibernateBase\bin\Release\FluentNHibernate.xml
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.NHibernateBase\bin\Release\Iesi.Collections.xml
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.NHibernateBase\bin\Release\NHibernate.xml
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.NHibernateBase\obj\Release\WMS.NHibernateBase.csprojResolveAssemblyReference.cache
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.NHibernateBase\obj\Release\WMS.NHibernateBase.dll
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.NHibernateBase\obj\Release\WMS.NHibernateBase.pdb

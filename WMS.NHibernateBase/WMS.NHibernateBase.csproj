@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5C91BD74-7CE4-40E2-B772-7571CBB9C123}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WMS.NHibernateBase</RootNamespace>
+    <AssemblyName>WMS.NHibernateBase</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
+    <RestorePackages>true</RestorePackages>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="FluentNHibernate">
+      <HintPath>..\packages\FluentNHibernate.1.3.0.733\lib\FluentNHibernate.dll</HintPath>
+    </Reference>
+    <Reference Include="Iesi.Collections">
+      <HintPath>..\packages\Iesi.Collections.3.2.0.4000\lib\Net35\Iesi.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="NHibernate">
+      <HintPath>..\packages\NHibernate.3.3.3.4001\lib\Net35\NHibernate.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Mapping\ActivitlyLogsMap.cs" />
+    <Compile Include="Mapping\ClassificationMap.cs" />
+    <Compile Include="Mapping\DocumentMap.cs" />
+    <Compile Include="Mapping\DocumentMappingMap.cs" />
+    <Compile Include="Mapping\NotificationMappingMap.cs" />
+    <Compile Include="Mapping\ProcessMap.cs" />
+    <Compile Include="Mapping\StatusMap.cs" />
+    <Compile Include="Mapping\SubProcessMap.cs" />
+    <Compile Include="Mapping\WorkflowMap.cs" />
+    <Compile Include="Mapping\WorkflowMappingMap.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositories\NHClassificationRepository.cs" />
+    <Compile Include="Repositories\NHDocumentMappingRepository.cs" />
+    <Compile Include="Repositories\NHDocumentRepository.cs" />
+    <Compile Include="Repositories\NHProcessRepository.cs" />
+    <Compile Include="Repositories\NHRepositoryBase.cs" />
+    <Compile Include="Repositories\NHStatusRepository.cs" />
+    <Compile Include="Repositories\NHSubProcessRepository.cs" />
+    <Compile Include="Repositories\NHUnitOfWork.cs" />
+    <Compile Include="Repositories\NHWorkflowMappingRepository.cs" />
+    <Compile Include="Repositories\NHWorkflowRepository.cs" />
+    <Compile Include="Repositories\NHNotificationMappingRepository.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WMS.Core\WMS.Core.csproj">
+      <Project>{6034A1B9-3908-43CF-9B71-C5D0ADE1A10A}</Project>
+      <Name>WMS.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WMS.Entities\WMS.Entities.csproj">
+      <Project>{62596b8e-1ce9-4387-8ce4-5bee15228294}</Project>
+      <Name>WMS.Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WMS.Helper\WMS.Helper.csproj">
+      <Project>{202D1397-A37A-4C8E-9C44-5F7255F8CFA4}</Project>
+      <Name>WMS.Helper</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

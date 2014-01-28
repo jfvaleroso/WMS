@@ -1,0 +1,9 @@
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem\WMS.Configuration\bin\Debug\WMS.Configuration.dll
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem\WMS.Configuration\bin\Debug\WMS.Configuration.pdb
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem\WMS.Configuration\obj\Debug\WMS.Configuration.dll
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem\WMS.Configuration\obj\Debug\WMS.Configuration.pdb
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem\WMS.Configuration\obj\Debug\WMS.Configuration.csprojResolveAssemblyReference.cache
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.Configuration\bin\Debug\WMS.Configuration.dll
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.Configuration\bin\Debug\WMS.Configuration.pdb
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.Configuration\obj\Debug\WMS.Configuration.dll
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.Configuration\obj\Debug\WMS.Configuration.pdb

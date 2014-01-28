@@ -1,0 +1,172 @@
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Web\bin\WMS.Web.dll.config
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Web\bin\WMS.Web.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Web\bin\WMS.Web.pdb
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Web\bin\Antlr3.Runtime.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Web\bin\Application.Extensions.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Web\bin\BundleTransformer.Core.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Web\bin\Castle.Core.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Web\bin\Castle.Windsor.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Web\bin\DotNetOpenAuth.AspNet.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Web\bin\DotNetOpenAuth.Core.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Web\bin\DotNetOpenAuth.OAuth.Consumer.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Web\bin\DotNetOpenAuth.OAuth.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Web\bin\DotNetOpenAuth.OpenId.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Web\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Web\bin\Elmah.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Web\bin\Microsoft.Web.Infrastructure.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Web\bin\Microsoft.Web.WebPages.OAuth.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Web\bin\MvcSiteMapProvider.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Web\bin\Newtonsoft.Json.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Web\bin\System.Net.Http.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Web\bin\System.Net.Http.Formatting.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Web\bin\System.Net.Http.WebRequest.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Web\bin\System.Web.Helpers.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Web\bin\System.Web.Http.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Web\bin\System.Web.Http.WebHost.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Web\bin\System.Web.Mvc.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Web\bin\System.Web.Optimization.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Web\bin\System.Web.Razor.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Web\bin\System.Web.WebPages.Deployment.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Web\bin\System.Web.WebPages.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Web\bin\System.Web.WebPages.Razor.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Web\bin\WebActivatorEx.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Web\bin\WebGrease.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Web\bin\WebMatrix.Data.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Web\bin\WebMatrix.WebData.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Web\bin\WMS.Configurations.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Web\bin\WMS.Core.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Web\bin\WMS.Dependency.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Web\bin\WMS.Entities.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Web\bin\WMS.Helper.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Web\bin\WMS.Webservice.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Web\bin\NHibernate.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Web\bin\WMS.NHibernateBase.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Web\bin\FluentNHibernate.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Web\bin\Iesi.Collections.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Web\bin\Application.Extensions.pdb
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Web\bin\WMS.Configurations.pdb
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Web\bin\WMS.Core.pdb
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Web\bin\WMS.Dependency.pdb
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Web\bin\WMS.Entities.pdb
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Web\bin\WMS.Helper.pdb
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Web\bin\WMS.Webservice.pdb
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Web\bin\Antlr3.Runtime.pdb
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Web\bin\Castle.Core.xml
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Web\bin\Castle.Windsor.xml
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Web\bin\Newtonsoft.Json.xml
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Web\bin\System.Web.Helpers.xml
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Web\bin\System.Web.Mvc.xml
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Web\bin\System.Web.Optimization.xml
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Web\bin\System.Web.Razor.xml
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Web\bin\System.Web.WebPages.xml
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Web\bin\System.Web.WebPages.Deployment.xml
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Web\bin\System.Web.WebPages.Razor.xml
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Web\bin\System.Net.Http.xml
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Web\bin\System.Net.Http.Formatting.xml
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Web\bin\System.Net.Http.WebRequest.xml
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Web\bin\System.Web.Http.xml
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Web\bin\System.Web.Http.WebHost.xml
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Web\bin\WebMatrix.Data.xml
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Web\bin\Microsoft.Web.WebPages.OAuth.xml
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Web\bin\WebMatrix.WebData.xml
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Web\bin\DotNetOpenAuth.AspNet.xml
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Web\bin\DotNetOpenAuth.Core.xml
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Web\bin\DotNetOpenAuth.OAuth.Consumer.xml
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Web\bin\DotNetOpenAuth.OAuth.xml
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Web\bin\DotNetOpenAuth.OpenId.xml
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Web\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Web\bin\NHibernate.xml
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Web\bin\WMS.NHibernateBase.pdb
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Web\bin\FluentNHibernate.xml
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Web\bin\Iesi.Collections.xml
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Web\bin\ru-ru\BundleTransformer.Core.resources.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Web\bin\WMS.Webservice.XmlSerializers.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Web\obj\Release\WMS.Web.csprojResolveAssemblyReference.cache
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Web\obj\Release\WMS.Web.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Web\obj\Release\WMS.Web.pdb
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.Web\bin\WMS.Web.dll.config
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.Web\bin\WMS.Web.dll
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.Web\bin\WMS.Web.pdb
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.Web\bin\Antlr3.Runtime.dll
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.Web\bin\Application.Extensions.dll
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.Web\bin\BundleTransformer.Core.dll
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.Web\bin\Castle.Core.dll
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.Web\bin\Castle.Windsor.dll
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.Web\bin\DotNetOpenAuth.AspNet.dll
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.Web\bin\DotNetOpenAuth.Core.dll
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.Web\bin\DotNetOpenAuth.OAuth.Consumer.dll
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.Web\bin\DotNetOpenAuth.OAuth.dll
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.Web\bin\DotNetOpenAuth.OpenId.dll
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.Web\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.Web\bin\Elmah.dll
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.Web\bin\Microsoft.Web.Infrastructure.dll
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.Web\bin\Microsoft.Web.WebPages.OAuth.dll
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.Web\bin\MvcSiteMapProvider.dll
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.Web\bin\Newtonsoft.Json.dll
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.Web\bin\System.Net.Http.dll
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.Web\bin\System.Net.Http.Formatting.dll
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.Web\bin\System.Net.Http.WebRequest.dll
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.Web\bin\System.Web.Helpers.dll
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.Web\bin\System.Web.Http.dll
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.Web\bin\System.Web.Http.WebHost.dll
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.Web\bin\System.Web.Mvc.dll
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.Web\bin\System.Web.Optimization.dll
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.Web\bin\System.Web.Razor.dll
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.Web\bin\System.Web.WebPages.Deployment.dll
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.Web\bin\System.Web.WebPages.dll
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.Web\bin\System.Web.WebPages.Razor.dll
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.Web\bin\WebActivatorEx.dll
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.Web\bin\WebGrease.dll
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.Web\bin\WebMatrix.Data.dll
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.Web\bin\WebMatrix.WebData.dll
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.Web\bin\WMS.Configurations.dll
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.Web\bin\WMS.Core.dll
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.Web\bin\WMS.Dependency.dll
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.Web\bin\WMS.Entities.dll
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.Web\bin\WMS.Helper.dll
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.Web\bin\WMS.Webservice.dll
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.Web\bin\NHibernate.dll
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.Web\bin\WMS.NHibernateBase.dll
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.Web\bin\FluentNHibernate.dll
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.Web\bin\Iesi.Collections.dll
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.Web\bin\Application.Extensions.pdb
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.Web\bin\WMS.Configurations.pdb
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.Web\bin\WMS.Core.pdb
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.Web\bin\WMS.Dependency.pdb
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.Web\bin\WMS.Entities.pdb
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.Web\bin\WMS.Helper.pdb
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.Web\bin\WMS.Webservice.pdb
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.Web\bin\Antlr3.Runtime.pdb
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.Web\bin\Castle.Core.xml
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.Web\bin\Castle.Windsor.xml
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.Web\bin\Newtonsoft.Json.xml
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.Web\bin\System.Web.Helpers.xml
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.Web\bin\System.Web.Mvc.xml
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.Web\bin\System.Web.Optimization.xml
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.Web\bin\System.Web.Razor.xml
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.Web\bin\System.Web.WebPages.xml
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.Web\bin\System.Web.WebPages.Deployment.xml
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.Web\bin\System.Web.WebPages.Razor.xml
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.Web\bin\System.Net.Http.xml
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.Web\bin\System.Net.Http.Formatting.xml
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.Web\bin\System.Net.Http.WebRequest.xml
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.Web\bin\System.Web.Http.xml
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.Web\bin\System.Web.Http.WebHost.xml
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.Web\bin\WebMatrix.Data.xml
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.Web\bin\Microsoft.Web.WebPages.OAuth.xml
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.Web\bin\WebMatrix.WebData.xml
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.Web\bin\DotNetOpenAuth.AspNet.xml
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.Web\bin\DotNetOpenAuth.Core.xml
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.Web\bin\DotNetOpenAuth.OAuth.Consumer.xml
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.Web\bin\DotNetOpenAuth.OAuth.xml
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.Web\bin\DotNetOpenAuth.OpenId.xml
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.Web\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.Web\bin\NHibernate.xml
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.Web\bin\WMS.NHibernateBase.pdb
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.Web\bin\FluentNHibernate.xml
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.Web\bin\Iesi.Collections.xml
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.Web\bin\ru-ru\BundleTransformer.Core.resources.dll
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.Web\bin\WMS.Webservice.XmlSerializers.dll
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.Web\obj\Release\WMS.Web.csprojResolveAssemblyReference.cache
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.Web\obj\Release\WMS.Web.dll
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.Web\obj\Release\WMS.Web.pdb

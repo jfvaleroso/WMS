@@ -1,0 +1,20 @@
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.Configuration\bin\Debug\WMS.Configurations.dll
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.Configuration\bin\Debug\WMS.Configurations.pdb
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.Configuration\obj\Debug\WMS.Configurations.dll
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.Configuration\obj\Debug\WMS.Configurations.pdb
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.Configuration\bin\Debug\WMS.Configurations.dll
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.Configuration\bin\Debug\WMS.Configurations.pdb
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.Configuration\obj\Debug\WMS.Configurations.dll
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.Configuration\obj\Debug\WMS.Configurations.pdb
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Configuration\bin\Debug\WMS.Configurations.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Configuration\bin\Debug\WMS.Configurations.pdb
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Configuration\obj\Debug\WMS.Configurations.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Configuration\obj\Debug\WMS.Configurations.pdb
+C:\GITREPOSITORY\GITHUB\WMS\WMS.Configuration\bin\Debug\WMS.Configurations.dll
+C:\GITREPOSITORY\GITHUB\WMS\WMS.Configuration\bin\Debug\WMS.Configurations.pdb
+C:\GITREPOSITORY\GITHUB\WMS\WMS.Configuration\obj\Debug\WMS.Configurations.dll
+C:\GITREPOSITORY\GITHUB\WMS\WMS.Configuration\obj\Debug\WMS.Configurations.pdb
+D:\GITREPOSITORY\GITHUB\WMS\WMS.Configuration\bin\Debug\WMS.Configurations.dll
+D:\GITREPOSITORY\GITHUB\WMS\WMS.Configuration\bin\Debug\WMS.Configurations.pdb
+D:\GITREPOSITORY\GITHUB\WMS\WMS.Configuration\obj\Debug\WMS.Configurations.dll
+D:\GITREPOSITORY\GITHUB\WMS\WMS.Configuration\obj\Debug\WMS.Configurations.pdb

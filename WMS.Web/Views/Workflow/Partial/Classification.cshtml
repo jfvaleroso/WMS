@@ -1,0 +1,7 @@
+﻿@model WMS.Web.Models.WorkflowModel
+
+
+<div id="partial-classification" class="editor-field">
+    @Html.DropDownListFor(model => model.ClassificationId, Model.ClassificationList, string.Empty, new { @class = "combobox combobox-medium" })
+    <p class="small">Please select a classification(optional).</p>
+</div>

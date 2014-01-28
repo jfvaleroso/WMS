@@ -1,0 +1,73 @@
+﻿@model WMS.Web.Areas.Setting.Models.ProcessModel
+@{
+
+}
+
+
+<div id="transaction">
+    @using (Html.BeginForm())
+    {
+
+      <div id="alert" class="alert alert-danger hide">
+            <strong>Notification</strong>
+            <span id="notification"></span>
+            @Html.ValidationSummary(false)
+        </div>
+
+
+        <div class="form-group">
+            <div class="editor-label">
+                <label>
+                    System
+                </label>
+            </div>
+            <div class="editor-field">
+                @Html.DropDownListFor(model => model.SystemCode, Model.SystemList, string.Empty, new { @class = "combobox combobox-medium" })
+                <p class="small">Choose system available form User Directory Sytem.</p>
+            </div>
+            <div class="editor-label">
+                <label>
+                    Process Code
+                </label>
+            </div>
+            <div id="Process" class="editor-field">
+                @Html.TextBoxFor(model => model.Code, new { @class = "form-control" })
+                <p id="status" class="small">Verify if Code exists. Note: format must be [System code]-[Process Code]</p>
+            </div>
+            <div class="editor-label">
+                <label>
+                    Process Name
+                </label>
+            </div>
+            <div class="editor-field">
+                @Html.TextBoxFor(model => model.Name, new { @class = "form-control" })
+                <p class="small">Please specify the Process Name</p>
+            </div>
+            <div class="editor-label">
+                @Html.LabelFor(model => model.Description)
+            </div>
+            <div class="editor-field">
+                @Html.TextAreaFor(model => model.Description, new { @class = "form-control" })
+                <p class="small">Please specify the Process Description</p>
+            </div>
+        </div>
+
+
+        <div class="right">
+            <button id="btnSave" class="btn btn-large btn-success" type="submit">
+                Save
+            </button>
+            <button id="btnClose" class="btn btn-large btn-success" type="button" data-dismiss="modal">
+                Cancel
+            </button>
+        </div>
+    }
+
+</div>
+
+
+@Html.Hidden("Item", Url.Action("Item"))
+@Html.Hidden("New", Url.Action("New"))
+@Html.Hidden("CheckAvailability", Url.Action("CheckAvailability"))
+@Scripts.Render("~/bundles/jquery.validate")
+@Scripts.Render("~/bundles/global/main")

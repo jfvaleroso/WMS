@@ -1,0 +1,23 @@
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\Application.Extensions\bin\Debug\Application.Extensions.dll
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\Application.Extensions\bin\Debug\Application.Extensions.pdb
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\Application.Extensions\obj\Debug\Application.Extensions.dll
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\Application.Extensions\obj\Debug\Application.Extensions.pdb
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\Application.Extensions\obj\Debug\Application.Extensions.csprojResolveAssemblyReference.cache
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\Application.Extensions\bin\Debug\Application.Extensions.dll
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\Application.Extensions\bin\Debug\Application.Extensions.pdb
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\Application.Extensions\obj\Debug\Application.Extensions.dll
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\Application.Extensions\obj\Debug\Application.Extensions.pdb
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\Application.Extensions\obj\Debug\Application.Extensions.csprojResolveAssemblyReference.cache
+D:\RDBelmonte\PROJECTS\PROJECT WMS\Application.Extensions\bin\Debug\Application.Extensions.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\Application.Extensions\bin\Debug\Application.Extensions.pdb
+D:\RDBelmonte\PROJECTS\PROJECT WMS\Application.Extensions\obj\Debug\Application.Extensions.csprojResolveAssemblyReference.cache
+D:\RDBelmonte\PROJECTS\PROJECT WMS\Application.Extensions\obj\Debug\Application.Extensions.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\Application.Extensions\obj\Debug\Application.Extensions.pdb
+C:\GITREPOSITORY\GITHUB\WMS\Application.Extensions\bin\Debug\Application.Extensions.dll
+C:\GITREPOSITORY\GITHUB\WMS\Application.Extensions\bin\Debug\Application.Extensions.pdb
+C:\GITREPOSITORY\GITHUB\WMS\Application.Extensions\obj\Debug\Application.Extensions.dll
+C:\GITREPOSITORY\GITHUB\WMS\Application.Extensions\obj\Debug\Application.Extensions.pdb
+D:\GITREPOSITORY\GITHUB\WMS\Application.Extensions\bin\Debug\Application.Extensions.dll
+D:\GITREPOSITORY\GITHUB\WMS\Application.Extensions\bin\Debug\Application.Extensions.pdb
+D:\GITREPOSITORY\GITHUB\WMS\Application.Extensions\obj\Debug\Application.Extensions.dll
+D:\GITREPOSITORY\GITHUB\WMS\Application.Extensions\obj\Debug\Application.Extensions.pdb

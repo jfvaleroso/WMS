@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="WMS.Webservice.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="WMS_Webservice_UDS_RoleWebservice_RoleWS" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://smartsalesweb:8081/dev-uds/webService/RoleWS.asmx</Value>
+    </Setting>
+    <Setting Name="WMS_Webservice_UDS_CommonWebservice_CommonWS" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://smartsalesweb:8081/dev-uds/webservice/commonws.asmx</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

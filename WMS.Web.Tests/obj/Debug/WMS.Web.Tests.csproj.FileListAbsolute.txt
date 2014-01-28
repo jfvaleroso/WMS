@@ -1,0 +1,1 @@
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem\WMS.Web.Tests\obj\Debug\WMS.Web.Tests.csprojResolveAssemblyReference.cache

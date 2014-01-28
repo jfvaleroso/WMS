@@ -1,0 +1,82 @@
+﻿@model WMS.Web.Models.DocumentMappingModel
+
+
+
+<div id="data-list">
+    <table class="table table-condensed table-striped small table-hover">
+        @foreach (var item in Model.DocumentMappingList)
+        {
+            <tr>
+                @*<td><span  class="glyphicon glyphicon-align-justify pointer preview" data-toggle="tooltip" title="Click to modify." data-link='@Url.Action("Modify", new { code = item.Document.Code })'></span></td>*@
+                <td>
+                    @item.Document.Code -  @item.Document.Name
+                </td>
+                <td>
+                    @if (item.Mandatory)
+                    { <span>mandatory</span> }
+                    else
+                    {<span>not mandatory</span>}
+                </td>
+                
+                <td>
+                    <span>
+                        @Ajax.ActionLink("delete", "RemoveDocument", new { id = item.Document.Id }, new AjaxOptions()
+                {
+                    HttpMethod = "GET",
+                    UpdateTargetId = "data-list"
+                })
+                    </span>
+                </td>
+                <td>
+                    @if (item.Active)
+                    {
+                        <img class="center" src="@Url.Content("~/Content/images/active.png")" />
+                    }
+                    else
+                    {
+                        <img class="center" src="@Url.Content("~/Content/images/inactive.png")" />
+                    }
+                </td>
+            </tr>
+        }
+
+    </table>
+</div>
+
+
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        //$(document).on("click", "span.preview", function (event){
+        //    event.preventDefault();
+        //    var url = $(this).attr("data-link");
+        //    getRequest(url, "Modify document");
+        //});
+
+        $("span.preview").on("click", function (event){
+            event.preventDefault();
+            var url = $(this).attr("data-link");
+            getRequest(url, "Modify document");
+        });
+
+        function getRequest(url, title) {
+            $("loading").removeClass("hide");
+            $.ajax({
+                url: url,
+                context: document.body,
+                cache: false,
+                success: function (data) {
+                    $('#mainModal').modal('show');
+                    $("#transaction").removeClass("hide");
+                    $('#mainModal .modal-body').html(data);
+                    $(this).addClass("done");
+                    $('#mainModal .modal-header .modal-title').empty().append(title);
+                    $("loading").addClass("hide");
+                },
+                error: function (err) {
+                    alert(err);
+                }
+            });
+        }
+    });
+</script>

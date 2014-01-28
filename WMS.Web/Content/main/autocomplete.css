@@ -1,0 +1,65 @@
+﻿* AUTOCOMPLETE */
+
+.umbracoSearchHolder #umbSearchField
+{
+    width: 250px;
+    color: #999;
+    padding: 2px;
+}
+.ac_results
+{
+    padding: 3px;
+    border: 1px solid #979797;
+    background-color: #f0f0f0;
+    border-top: none;
+    overflow: hidden;
+    z-index: 99999;
+}
+
+.ac_results ul
+{
+    width: 100%;
+    list-style-position: outside;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.ac_results li
+{
+    display: block;
+    padding: 2px;
+    padding-left: 5px; /*  	it is very important, if line-height not setted or setted  	in relative units scroll will be broken in firefox 	*/
+    line-height: 20px;
+    overflow: hidden;
+    font-family: Arial,Lucida Grande;
+    font-size: 11px;
+    height: 20px;
+    color: #1a1818;
+    cursor: pointer;
+}
+
+.ac_results .ac_odd
+{
+}
+
+.ac_results .ac_over
+{
+    background-color: #D5EFFC;
+    border: 1px solid #a8d8eb;
+    padding: 1px !important;
+    padding-left: 4px !important;
+}
+
+.ac_results span.nodeId
+{
+    font-size: smaller;
+}
+
+.ac_loading
+{
+    background-image: url('../images/throbber.gif');
+    background-position: right;
+    background-repeat: no-repeat;
+}
+

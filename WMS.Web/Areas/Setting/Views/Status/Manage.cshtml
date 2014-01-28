@@ -1,0 +1,70 @@
+﻿@model WMS.Entities.Status
+@{
+
+}
+
+<div id="transaction">
+    @using (Html.BeginForm())
+{
+    <div id="alert" class="alert alert-danger hide">
+            <strong>Notification</strong>
+            <span id="notification"></span>
+            @Html.ValidationSummary(false)
+        </div>
+
+    <div class="form-group">
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Code)
+        </div>
+        <div class="editor-field">
+            @Html.TextBoxFor(model => model.Code, new { @class = "form-control", @readonly = "readonly" })
+            <p id="status" class="small">Status Code.</p>
+        </div>
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Name)
+        </div>
+        <div class="editor-field">
+            @Html.TextBoxFor(model => model.Name, new { @class = "form-control" })
+            <p class="small">Please specify the Status Name</p>
+        </div>
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Description)
+        </div>
+        <div class="editor-field">
+            @Html.TextAreaFor(model => model.Description, new { @class = "form-control" })
+            <p class="small">Please specify the Status Description</p>
+        </div>
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Active)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Active, new { @class = "checkbox" })
+        </div>
+        @Html.HiddenFor(model => model.Id)
+    </div>
+
+           <p class="small">
+            Created by:@Html.DisplayFor(model => model.CreatedBy)<br />
+            Date Created:@Html.DisplayFor(model => model.DateCreated)
+        </p>
+    <div class="right">
+        <button id="btnSaveChanges" class="btn btn-large btn-success" type="button">
+            Save Changes
+        </button>
+
+        <button id="btnClose" class="btn btn-large btn-success" type="button" data-dismiss="modal">
+            Cancel
+        </button>
+    </div>
+}
+
+
+    </div>
+
+@Html.Hidden("Home", Url.Action("Index"))
+@Html.Hidden("Manage", Url.Action("Manage"))
+@Html.Hidden("Item", Url.Action("Item"))
+@Html.Hidden("CheckAvailability", Url.Action("CheckAvailability"))
+@Scripts.Render("~/bundles/jquery.validate")
+@Scripts.Render("~/bundles/global/main")
+

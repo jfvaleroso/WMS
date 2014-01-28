@@ -1,0 +1,25 @@
+﻿@if (Request.IsAuthenticated)
+{
+    <ul class="nav navbar-nav navbar-right">
+        <li id="fat-menu" class="dropdown">
+            <a href="#" id="drop3" role="button" class="dropdown-toggle normal" data-toggle="dropdown">@User.Identity.Name<b class="caret"></b></a>
+            <ul class="dropdown-menu normal" role="menu" aria-labelledby="drop3">
+                @foreach (string role in Roles.GetRolesForUser())
+                {
+                    <li role="presentation"><a class="normal" role="menuitem" tabindex="-1">@role.ToString()</a></li>
+                }
+                <li role="presentation" class="divider"></li>
+                @*<li role="presentation">
+                    @using (Html.BeginForm("LogOff", "Account", FormMethod.Post, new { id = "logoutForm" }))
+                    {
+                    <a class="normal" role="menuitem" tabindex="-1" href="javascript:document.getElementById('logoutForm').submit()">Log off</a>
+                    }
+                </li>*@
+                <li role="presentation">@Html.ActionLink("Logout", "LogOff", "Account")</li>
+
+
+
+            </ul>
+        </li>
+    </ul>
+}

@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6034A1B9-3908-43CF-9B71-C5D0ADE1A10A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WMS.Core</RootNamespace>
+    <AssemblyName>WMS.Core</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositories\IClassificationRepository.cs" />
+    <Compile Include="Repositories\IDocumentMappingRepository.cs" />
+    <Compile Include="Repositories\IDocumentRepository.cs" />
+    <Compile Include="Repositories\INotificationMappingRepository.cs" />
+    <Compile Include="Repositories\IProcessRepository.cs" />
+    <Compile Include="Repositories\IRepository.cs" />
+    <Compile Include="Repositories\ISearchRepository.cs" />
+    <Compile Include="Repositories\IStatusRepository.cs" />
+    <Compile Include="Repositories\ISubProcessRepository.cs" />
+    <Compile Include="Repositories\IWorkflowMappingRepository.cs" />
+    <Compile Include="Repositories\IWorkflowRepository.cs" />
+    <Compile Include="Services\Implementation\BaseService.cs" />
+    <Compile Include="Services\Implementation\DocumentMappingService.cs" />
+    <Compile Include="Services\Implementation\NotificationMappingService.cs" />
+    <Compile Include="Services\Implementation\StatusService.cs" />
+    <Compile Include="Services\Implementation\WorkflowMappingService.cs" />
+    <Compile Include="Services\Implementation\WorkflowService.cs" />
+    <Compile Include="Services\IServices\IClassificationService.cs" />
+    <Compile Include="Services\IServices\IDocumentMappingService.cs" />
+    <Compile Include="Services\IServices\IDocumentService.cs" />
+    <Compile Include="Services\IServices\INotificationMappingService.cs" />
+    <Compile Include="Services\IServices\ISearchService.cs" />
+    <Compile Include="Services\IServices\IService.cs" />
+    <Compile Include="Services\IServices\IStatusService.cs" />
+    <Compile Include="Services\IServices\ISubProcessService.cs" />
+    <Compile Include="Services\IServices\IProcessService.cs" />
+    <Compile Include="Services\Implementation\ClassificationService.cs" />
+    <Compile Include="Services\Implementation\DocumentService.cs" />
+    <Compile Include="Services\Implementation\ProcessService.cs" />
+    <Compile Include="Services\Implementation\SubProcessService.cs" />
+    <Compile Include="Services\IServices\IWorkflowMappingService.cs" />
+    <Compile Include="Services\IServices\IWorkflowService.cs" />
+    <Compile Include="UnitofWork\IUnitOfWork.cs" />
+    <Compile Include="UnitofWork\UnitOfWorkAttribute.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\WMS.Entities\WMS.Entities.csproj">
+      <Project>{62596b8e-1ce9-4387-8ce4-5bee15228294}</Project>
+      <Name>WMS.Entities</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

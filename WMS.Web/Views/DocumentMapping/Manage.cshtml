@@ -1,0 +1,91 @@
+﻿@model  WMS.Web.Models.DocumentMappingModel
+@{
+    ViewBag.Title = "Manage Document Mapping";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="row">
+    <div class="col-md-5">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title"><strong>Wofklow document mapping.</strong></h3>
+
+            </div>
+            <div class="panel-body small">
+                Instructions here...
+
+
+            </div>
+
+        </div>
+
+    </div>
+    <div class="col-md-7">
+
+        @Html.Partial("ModalTemplates/_Status")
+        <div id="transaction">
+            @using (Html.BeginForm())
+            {
+                @Html.ValidationSummary(true)
+                <div id="alert" class="alert alert-danger hide">
+                    <span class="glyphicon glyphicon-remove"></span><strong>Error</strong>
+                    <span id="notification"></span>
+                    @Html.ValidationSummary()
+                </div>
+
+                <div class="form-group">
+                    @Html.HiddenFor(model => model.SecuredId)
+                    <div class="editor-field">
+                        @Html.DropDownListFor(model => model.WorkflowId, Model.WorkflowList, new { @class = "combobox combobox-medium" })
+                        <p class="small">Selected workflow.</p>
+                    </div>
+
+
+                    <div class="editor-field">
+                        @Html.DropDownListFor(model => model.DocumentId, Model.DocumentList, string.Empty, new { @class = "combobox combobox-medium" })
+                        <p class="small">Select a document.</p>
+                    </div>
+                    <div class="editor-field">
+
+                        <p class="small">@Html.CheckBoxFor(model => model.Mandatory, new { @class = "" }) Check if mandatory.</p>
+                    </div>
+
+                </div>
+
+                <div class="left">
+                    <button id="btnAdd" class="btn btn-large btn-success" type="submit">
+                        Add Document
+                    </button>
+
+
+                </div>
+            }
+
+            @Html.Partial("Partial/Document", Model)
+
+        </div>
+
+
+
+        <div class="right">
+            <button id="btnBack" class="btn btn-large btn-success" type="button">
+                Back
+            </button>
+            <button id="btnCancel" class="btn btn-large btn-success" type="button">
+                Cancel
+            </button>
+            <button id="btnModify" class="btn btn-large btn-success" type="button">
+                Save Changes
+            </button>
+
+        </div>
+
+
+    </div>
+</div>
+
+
+@Html.Hidden("Manage", Url.Action("SaveChangesInDocumentMapping"))
+@Html.Hidden("Add", Url.Action("AddDocument"))
+@Html.Hidden("RedirectAction", Url.Action("Index", "WorkflowMapping"))
+@Html.Hidden("Cancel", Url.Action("Index","Workflow"))

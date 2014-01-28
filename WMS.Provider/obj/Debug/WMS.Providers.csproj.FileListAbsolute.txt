@@ -1,0 +1,24 @@
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem\WMS.Provider\bin\Debug\WMS.Providers.dll
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem\WMS.Provider\bin\Debug\WMS.Providers.pdb
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem\WMS.Provider\obj\Debug\WMS.Providers.dll
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem\WMS.Provider\obj\Debug\WMS.Providers.pdb
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.Provider\bin\Debug\WMS.Providers.dll
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.Provider\bin\Debug\WMS.Providers.pdb
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.Provider\obj\Debug\WMS.Providers.dll
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.Provider\obj\Debug\WMS.Providers.pdb
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.Provider\bin\Debug\WMS.Providers.dll
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.Provider\bin\Debug\WMS.Providers.pdb
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.Provider\obj\Debug\WMS.Providers.dll
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.Provider\obj\Debug\WMS.Providers.pdb
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Provider\bin\Debug\WMS.Providers.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Provider\bin\Debug\WMS.Providers.pdb
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Provider\obj\Debug\WMS.Providers.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Provider\obj\Debug\WMS.Providers.pdb
+C:\GITREPOSITORY\GITHUB\WMS\WMS.Provider\bin\Debug\WMS.Providers.dll
+C:\GITREPOSITORY\GITHUB\WMS\WMS.Provider\bin\Debug\WMS.Providers.pdb
+C:\GITREPOSITORY\GITHUB\WMS\WMS.Provider\obj\Debug\WMS.Providers.dll
+C:\GITREPOSITORY\GITHUB\WMS\WMS.Provider\obj\Debug\WMS.Providers.pdb
+D:\GITREPOSITORY\GITHUB\WMS\WMS.Provider\bin\Debug\WMS.Providers.dll
+D:\GITREPOSITORY\GITHUB\WMS\WMS.Provider\bin\Debug\WMS.Providers.pdb
+D:\GITREPOSITORY\GITHUB\WMS\WMS.Provider\obj\Debug\WMS.Providers.dll
+D:\GITREPOSITORY\GITHUB\WMS\WMS.Provider\obj\Debug\WMS.Providers.pdb

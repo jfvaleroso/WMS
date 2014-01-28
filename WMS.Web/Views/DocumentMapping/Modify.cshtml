@@ -1,0 +1,56 @@
+﻿@model WMS.Web.Models.DocumentMappingModel
+@{
+
+}
+
+<div id="loading" class="hide">
+    <img src="@Url.Content("~/Content/images/spinner.gif")" />
+</div>
+
+<div id="transaction">
+    @using (Html.BeginForm())
+    { @Html.ValidationSummary(true)
+        <div id="alert" class="alert alert-danger hide">
+            <span class="glyphicon glyphicon-remove"></span><strong>Error</strong>
+            <span id="notification"></span>
+            @Html.ValidationSummary()
+        </div>
+
+        <div class="form-group">
+
+            
+            <div class="editor-field">
+                @Html.TextBoxFor(model => model.Document.Name, new { @class = "form-control", @readonly = "readonly" })
+                <p class="small">Document Name.</p>
+            </div>
+            <div class="editor-field">
+                @Html.TextBoxFor(model => model.Document.Description, new { @class = "form-control", @readonly = "readonly" })
+                <p class="small">Document description.</p>
+            </div>
+
+            <div class="editor-field">
+                @Html.EditorFor(model => model.Active, new { @class = "checkbox" })
+                <p class="small">Check if active.</p>
+            </div>
+            <div class="editor-field">
+                @Html.EditorFor(model => model.Mandatory, new { @class = "checkbox" })
+                <p class="small">Check if mandatory.</p>
+            </div>
+        </div>
+        <div class="right">
+            <button id="btnSaveChanges" class="btn btn-large btn-success" type="button">
+                Save Changes
+            </button>
+            <button id="btnClose" class="btn btn-large btn-success" type="button" data-dismiss="modal">
+                Cancel
+            </button>
+        </div>
+    }
+</div>
+
+
+
+@Html.Hidden("Home", Url.Action("Index"))
+@Html.Hidden("Manage", Url.Action("Manage"))
+
+

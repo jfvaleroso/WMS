@@ -1,0 +1,9 @@
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Configuration\bin\Release\WMS.Configurations.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Configuration\bin\Release\WMS.Configurations.pdb
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Configuration\obj\Release\WMS.Configurations.csprojResolveAssemblyReference.cache
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Configuration\obj\Release\WMS.Configurations.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Configuration\obj\Release\WMS.Configurations.pdb
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.Configuration\bin\Release\WMS.Configurations.dll
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.Configuration\bin\Release\WMS.Configurations.pdb
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.Configuration\obj\Release\WMS.Configurations.dll
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.Configuration\obj\Release\WMS.Configurations.pdb

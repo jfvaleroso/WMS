@@ -1,0 +1,67 @@
+﻿@model WMS.Web.Areas.Setting.Models.SubProcessModel
+@{
+
+}
+
+
+
+
+<div id="transaction">
+    @using (Html.BeginForm())
+    {
+       <div id="alert" class="alert alert-danger hide">
+            <strong>Notification</strong>
+            <span id="notification"></span>
+            @Html.ValidationSummary(false)
+        </div>
+
+        <div class="form-group">
+            <div class="editor-label">
+                <label>Process</label>
+            </div>
+            <div class="editor-field">
+                @Html.DropDownListFor(model => model.ProcessId, Model.ProcessList, string.Empty ,new { @class = "combobox combobox-medium" })
+                <p class="small">Please select a process.</p>
+            </div>
+            <div class="editor-label">
+                <label>Code</label>
+            </div>
+            <div id="SubProcess" class="editor-field">
+                @Html.TextBoxFor(model => model.Code, new { @class = "form-control" })
+                <p id="status" class="small">Verify if code exists.</p>
+
+            </div>
+            <div class="editor-label">
+                <label>Sub Process</label>
+            </div>
+            <div class="editor-field">
+                @Html.TextBoxFor(model => model.Name, new { @class = "form-control" })
+                <p class="small">Please specify the Sub Process Name</p>
+
+            </div>
+            <div class="editor-label">
+                <label>Description</label>
+            </div>
+            <div class="editor-field">
+                @Html.TextAreaFor(model => model.Description, new { @class = "form-control" })
+                <p class="small">Please specify the Sub Process description.</p>
+            </div>
+        </div>
+
+        <div class="right">
+            <button id="btnSave" class="btn btn-large btn-success" type="submit">
+                Save
+            </button>
+            <button id="btnClose" class="btn btn-large btn-success" type="button" data-dismiss="modal">
+                Cancel
+            </button>
+        </div>
+    }
+ 
+</div>
+
+@Html.Hidden("Item", Url.Action("Item"))
+@Html.Hidden("New", Url.Action("New"))
+@Html.Hidden("CheckAvailability", Url.Action("CheckAvailability"))
+@Scripts.Render("~/bundles/jquery.validate")
+@Scripts.Render("~/bundles/global/main")

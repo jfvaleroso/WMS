@@ -1,0 +1,7 @@
+﻿@model WMS.Web.Models.WorkflowModel
+
+
+<div id="partial-requestor" class="editor-field">
+    @Html.DropDownListFor(model => model.RequestorCode, Model.RoleList, new { @class = "combobox-medium combobox", @multiple = "true" })
+    <p id="note-assignee" class="small">Specify requestor/s.</p>
+</div>

@@ -1,0 +1,59 @@
+﻿@model WMS.Web.Models.NotificationMappingModel
+
+
+
+<div id="data-list">
+    <table class="table table-condensed table-striped small table-hover">
+        @foreach (var item in Model.NotificationMappingList)
+        {
+            <tr>
+                <td><span id="preview" class="glyphicon glyphicon-align-justify pointer" data-toggle="tooltip" title="Click to modify." data-link='@Url.Action("Manage", new { code = item.Status.Code })'></span></td>
+                <td>
+                    @item.Status.Name
+                </td>        
+                <td>
+                    <span>
+                        @Ajax.ActionLink("delete", "RemoveNotification", new { code = item.Status.Code }, new AjaxOptions()
+                {
+                    HttpMethod = "GET",
+                    UpdateTargetId = "data-list"
+                })
+                    </span>
+                </td>
+            </tr>
+        }
+
+    </table>
+</div>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        function getRequest(url, title) {
+            $.ajax({
+                url: url,
+                context: document.body,
+                cache: false,
+                success: function (data) {
+                    $("#transaction").removeClass("hide");
+                    $('#mainModal .modal-body').html(data);
+                    $(this).addClass("done");
+                    $('#mainModal .modal-header .modal-title').empty().append(title);
+                    $('#mainModal').modal('show');
+                },
+                error: function (err) {
+                    alert(err);
+                }
+            });
+        }
+        $("#preview").on("click", function (event) {
+            event.preventDefault();
+            var url = $(this).attr("data-link");
+            getRequest(url, "Modify Notification");
+
+
+        });
+    });
+    </script>
+
+
+

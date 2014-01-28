@@ -1,0 +1,100 @@
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem\WMS.NHibernateBase\bin\Debug\WMS.NHibernateBase.dll
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem\WMS.NHibernateBase\bin\Debug\WMS.NHibernateBase.pdb
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem\WMS.NHibernateBase\bin\Debug\FluentNHibernate.dll
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem\WMS.NHibernateBase\bin\Debug\Iesi.Collections.dll
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem\WMS.NHibernateBase\bin\Debug\NHibernate.dll
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem\WMS.NHibernateBase\bin\Debug\WMS.Core.dll
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem\WMS.NHibernateBase\bin\Debug\WMS.Core.pdb
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem\WMS.NHibernateBase\bin\Debug\FluentNHibernate.xml
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem\WMS.NHibernateBase\bin\Debug\Iesi.Collections.xml
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem\WMS.NHibernateBase\bin\Debug\NHibernate.xml
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem\WMS.NHibernateBase\obj\Debug\WMS.NHibernateBase.csprojResolveAssemblyReference.cache
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem\WMS.NHibernateBase\obj\Debug\WMS.NHibernateBase.dll
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem\WMS.NHibernateBase\obj\Debug\WMS.NHibernateBase.pdb
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem\WMS.NHibernateBase\bin\Debug\WMS.Helper.dll
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem\WMS.NHibernateBase\bin\Debug\WMS.Helper.pdb
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.NHibernateBase\bin\Debug\WMS.NHibernateBase.dll
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.NHibernateBase\bin\Debug\WMS.NHibernateBase.pdb
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.NHibernateBase\bin\Debug\FluentNHibernate.dll
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.NHibernateBase\bin\Debug\Iesi.Collections.dll
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.NHibernateBase\bin\Debug\NHibernate.dll
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.NHibernateBase\bin\Debug\WMS.Core.dll
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.NHibernateBase\bin\Debug\WMS.Entities.dll
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.NHibernateBase\bin\Debug\WMS.Helper.dll
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.NHibernateBase\bin\Debug\WMS.Core.pdb
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.NHibernateBase\bin\Debug\WMS.Entities.pdb
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.NHibernateBase\bin\Debug\WMS.Helper.pdb
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.NHibernateBase\bin\Debug\FluentNHibernate.xml
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.NHibernateBase\bin\Debug\Iesi.Collections.xml
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.NHibernateBase\bin\Debug\NHibernate.xml
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.NHibernateBase\obj\Debug\WMS.NHibernateBase.csprojResolveAssemblyReference.cache
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.NHibernateBase\obj\Debug\WMS.NHibernateBase.dll
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.NHibernateBase\obj\Debug\WMS.NHibernateBase.pdb
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.NHibernateBase\bin\Debug\WMS.NHibernateBase.dll
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.NHibernateBase\bin\Debug\WMS.NHibernateBase.pdb
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.NHibernateBase\bin\Debug\FluentNHibernate.dll
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.NHibernateBase\bin\Debug\Iesi.Collections.dll
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.NHibernateBase\bin\Debug\NHibernate.dll
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.NHibernateBase\bin\Debug\WMS.Core.dll
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.NHibernateBase\bin\Debug\WMS.Entities.dll
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.NHibernateBase\bin\Debug\WMS.Helper.dll
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.NHibernateBase\bin\Debug\WMS.Core.pdb
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.NHibernateBase\bin\Debug\WMS.Entities.pdb
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.NHibernateBase\bin\Debug\WMS.Helper.pdb
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.NHibernateBase\bin\Debug\FluentNHibernate.xml
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.NHibernateBase\bin\Debug\Iesi.Collections.xml
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.NHibernateBase\bin\Debug\NHibernate.xml
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.NHibernateBase\obj\Debug\WMS.NHibernateBase.csprojResolveAssemblyReference.cache
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.NHibernateBase\obj\Debug\WMS.NHibernateBase.dll
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.NHibernateBase\obj\Debug\WMS.NHibernateBase.pdb
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.NHibernateBase\bin\Debug\WMS.NHibernateBase.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.NHibernateBase\bin\Debug\WMS.NHibernateBase.pdb
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.NHibernateBase\bin\Debug\FluentNHibernate.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.NHibernateBase\bin\Debug\Iesi.Collections.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.NHibernateBase\bin\Debug\NHibernate.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.NHibernateBase\bin\Debug\WMS.Core.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.NHibernateBase\bin\Debug\WMS.Entities.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.NHibernateBase\bin\Debug\WMS.Helper.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.NHibernateBase\bin\Debug\WMS.Core.pdb
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.NHibernateBase\bin\Debug\WMS.Entities.pdb
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.NHibernateBase\bin\Debug\WMS.Helper.pdb
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.NHibernateBase\bin\Debug\FluentNHibernate.xml
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.NHibernateBase\bin\Debug\Iesi.Collections.xml
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.NHibernateBase\bin\Debug\NHibernate.xml
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.NHibernateBase\obj\Debug\WMS.NHibernateBase.csprojResolveAssemblyReference.cache
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.NHibernateBase\obj\Debug\WMS.NHibernateBase.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.NHibernateBase\obj\Debug\WMS.NHibernateBase.pdb
+C:\GITREPOSITORY\GITHUB\WMS\WMS.NHibernateBase\bin\Debug\WMS.NHibernateBase.dll
+C:\GITREPOSITORY\GITHUB\WMS\WMS.NHibernateBase\bin\Debug\WMS.NHibernateBase.pdb
+C:\GITREPOSITORY\GITHUB\WMS\WMS.NHibernateBase\bin\Debug\FluentNHibernate.dll
+C:\GITREPOSITORY\GITHUB\WMS\WMS.NHibernateBase\bin\Debug\Iesi.Collections.dll
+C:\GITREPOSITORY\GITHUB\WMS\WMS.NHibernateBase\bin\Debug\NHibernate.dll
+C:\GITREPOSITORY\GITHUB\WMS\WMS.NHibernateBase\bin\Debug\WMS.Core.dll
+C:\GITREPOSITORY\GITHUB\WMS\WMS.NHibernateBase\bin\Debug\WMS.Entities.dll
+C:\GITREPOSITORY\GITHUB\WMS\WMS.NHibernateBase\bin\Debug\WMS.Helper.dll
+C:\GITREPOSITORY\GITHUB\WMS\WMS.NHibernateBase\bin\Debug\WMS.Core.pdb
+C:\GITREPOSITORY\GITHUB\WMS\WMS.NHibernateBase\bin\Debug\WMS.Entities.pdb
+C:\GITREPOSITORY\GITHUB\WMS\WMS.NHibernateBase\bin\Debug\WMS.Helper.pdb
+C:\GITREPOSITORY\GITHUB\WMS\WMS.NHibernateBase\bin\Debug\FluentNHibernate.xml
+C:\GITREPOSITORY\GITHUB\WMS\WMS.NHibernateBase\bin\Debug\Iesi.Collections.xml
+C:\GITREPOSITORY\GITHUB\WMS\WMS.NHibernateBase\bin\Debug\NHibernate.xml
+C:\GITREPOSITORY\GITHUB\WMS\WMS.NHibernateBase\obj\Debug\WMS.NHibernateBase.csprojResolveAssemblyReference.cache
+C:\GITREPOSITORY\GITHUB\WMS\WMS.NHibernateBase\obj\Debug\WMS.NHibernateBase.dll
+C:\GITREPOSITORY\GITHUB\WMS\WMS.NHibernateBase\obj\Debug\WMS.NHibernateBase.pdb
+D:\GITREPOSITORY\GITHUB\WMS\WMS.NHibernateBase\bin\Debug\WMS.NHibernateBase.dll
+D:\GITREPOSITORY\GITHUB\WMS\WMS.NHibernateBase\bin\Debug\WMS.NHibernateBase.pdb
+D:\GITREPOSITORY\GITHUB\WMS\WMS.NHibernateBase\bin\Debug\FluentNHibernate.dll
+D:\GITREPOSITORY\GITHUB\WMS\WMS.NHibernateBase\bin\Debug\Iesi.Collections.dll
+D:\GITREPOSITORY\GITHUB\WMS\WMS.NHibernateBase\bin\Debug\NHibernate.dll
+D:\GITREPOSITORY\GITHUB\WMS\WMS.NHibernateBase\bin\Debug\WMS.Core.dll
+D:\GITREPOSITORY\GITHUB\WMS\WMS.NHibernateBase\bin\Debug\WMS.Entities.dll
+D:\GITREPOSITORY\GITHUB\WMS\WMS.NHibernateBase\bin\Debug\WMS.Helper.dll
+D:\GITREPOSITORY\GITHUB\WMS\WMS.NHibernateBase\bin\Debug\WMS.Core.pdb
+D:\GITREPOSITORY\GITHUB\WMS\WMS.NHibernateBase\bin\Debug\WMS.Entities.pdb
+D:\GITREPOSITORY\GITHUB\WMS\WMS.NHibernateBase\bin\Debug\WMS.Helper.pdb
+D:\GITREPOSITORY\GITHUB\WMS\WMS.NHibernateBase\bin\Debug\FluentNHibernate.xml
+D:\GITREPOSITORY\GITHUB\WMS\WMS.NHibernateBase\bin\Debug\Iesi.Collections.xml
+D:\GITREPOSITORY\GITHUB\WMS\WMS.NHibernateBase\bin\Debug\NHibernate.xml
+D:\GITREPOSITORY\GITHUB\WMS\WMS.NHibernateBase\obj\Debug\WMS.NHibernateBase.csprojResolveAssemblyReference.cache
+D:\GITREPOSITORY\GITHUB\WMS\WMS.NHibernateBase\obj\Debug\WMS.NHibernateBase.dll
+D:\GITREPOSITORY\GITHUB\WMS\WMS.NHibernateBase\obj\Debug\WMS.NHibernateBase.pdb

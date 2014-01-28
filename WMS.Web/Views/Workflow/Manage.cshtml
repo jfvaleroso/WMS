@@ -1,0 +1,123 @@
+﻿@model  WMS.Web.Models.WorkflowModel
+@{
+    ViewBag.Title = "Manage Workflow";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<div class="row">
+    <div class="col-md-5">
+
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title"><strong>Manage workflow.</strong></h3>
+
+            </div>
+            <div class="panel-body small">
+                Instructions here...
+
+
+            </div>
+
+        </div>
+
+
+    </div>
+    <div class="col-md-7">
+        @Html.Partial("ModalTemplates/_Status")
+
+        <div id="transaction">
+            @using (Html.BeginForm())
+            {
+                @Html.ValidationSummary(true)
+                <div id="alert" class="alert alert-danger hide">
+                    <span class="glyphicon glyphicon-remove"></span><strong>Error</strong>
+                    <span id="notification"></span>
+                    @Html.ValidationSummary()
+                </div>
+                @Html.HiddenFor(model => model.Id)
+                <div class="form-group">
+                    <div class="editor-label">
+                        <label>
+                            Process
+                        </label>
+                    </div>
+                    <div class="editor-field">
+                        @Html.DropDownListFor(model => model.ProcessId, Model.ProcessList, string.Empty, new { @class = "combobox combobox-medium" })
+                        <p class="small">Please select a process.</p>
+                    </div>
+                    <div class="editor-label">
+                        <label>
+                            SubProcess
+                        </label>
+                    </div>
+
+                    @Html.Partial("Partial/SubProcess", Model)
+
+
+                    <div class="editor-label">
+                        <label>
+                            Classification
+                        </label>
+                    </div>
+                    @Html.Partial("Partial/Classification", Model)
+
+                    <div class="editor-label">
+                        <label>
+                            Code
+                        </label>
+                    </div>
+                    <div class="editor-field">
+                        @Html.TextBoxFor(model => model.Code, new { @class = "form-control" })
+                        <p id="status" class="small">Verify if Code exists.</p>
+                    </div>
+                    <div class="editor-label">
+                        <label>
+                            Name
+                        </label>
+                    </div>
+                    <div class="editor-field">
+                        @Html.TextBoxFor(model => model.Name, new { @class = "form-control" })
+                        <p class="small">Please indicate workflow name.</p>
+                    </div>
+                    <div class="editor-label">
+                        <label>
+                            Description
+                        </label>
+                    </div>
+                    <div class="editor-field">
+                        @Html.TextAreaFor(model => model.Description, new { @class = "form-control" })
+                        <p class="small">Please indicate workflow description(optional).</p>
+                    </div>
+                    @Html.Partial("Partial/Requestor", Model)
+                </div>
+
+                <div class="right">
+                    <button id="btnBack" class="btn btn-large btn-success" type="button">
+                        Back
+                    </button>
+                    <button id="btnCancel" class="btn btn-large btn-success" type="button">
+                        Cancel
+                    </button>
+                    <button id="btnModify" class="btn btn-large btn-success" type="button">
+                        Save Changes
+                    </button>
+
+                </div>
+                <div>
+                    <p class="small">
+                        Created by:@Html.DisplayFor(model => model.CreatedBy)<br />
+                        Date Created:@Html.DisplayFor(model => model.DateCreated)
+                    </p>
+                </div>
+            }
+            @Html.Hidden("Home", Url.Action("Index"))
+            @Html.Hidden("Manage", Url.Action("Manage"))
+            @Html.Hidden("Item", Url.Action("Item"))
+            @Html.Hidden("CheckAvailability", Url.Action("CheckAvailability"))
+
+
+
+        </div>
+    </div>
+</div>

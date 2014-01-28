@@ -1,0 +1,25 @@
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem\WMS.Helper\bin\Debug\WMS.Helper.dll
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem\WMS.Helper\bin\Debug\WMS.Helper.pdb
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem\WMS.Helper\obj\Debug\WMS.Helper.dll
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem\WMS.Helper\obj\Debug\WMS.Helper.pdb
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem\WMS.Helper\obj\Debug\WMS.Helper.csprojResolveAssemblyReference.cache
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.Helper\bin\Debug\WMS.Helper.dll
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.Helper\bin\Debug\WMS.Helper.pdb
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.Helper\obj\Debug\WMS.Helper.dll
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.Helper\obj\Debug\WMS.Helper.pdb
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.Helper\bin\Debug\WMS.Helper.dll
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.Helper\bin\Debug\WMS.Helper.pdb
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.Helper\obj\Debug\WMS.Helper.dll
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.Helper\obj\Debug\WMS.Helper.pdb
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Helper\bin\Debug\WMS.Helper.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Helper\bin\Debug\WMS.Helper.pdb
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Helper\obj\Debug\WMS.Helper.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Helper\obj\Debug\WMS.Helper.pdb
+C:\GITREPOSITORY\GITHUB\WMS\WMS.Helper\bin\Debug\WMS.Helper.dll
+C:\GITREPOSITORY\GITHUB\WMS\WMS.Helper\bin\Debug\WMS.Helper.pdb
+C:\GITREPOSITORY\GITHUB\WMS\WMS.Helper\obj\Debug\WMS.Helper.dll
+C:\GITREPOSITORY\GITHUB\WMS\WMS.Helper\obj\Debug\WMS.Helper.pdb
+D:\GITREPOSITORY\GITHUB\WMS\WMS.Helper\bin\Debug\WMS.Helper.dll
+D:\GITREPOSITORY\GITHUB\WMS\WMS.Helper\bin\Debug\WMS.Helper.pdb
+D:\GITREPOSITORY\GITHUB\WMS\WMS.Helper\obj\Debug\WMS.Helper.dll
+D:\GITREPOSITORY\GITHUB\WMS\WMS.Helper\obj\Debug\WMS.Helper.pdb

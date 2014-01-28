@@ -1,0 +1,84 @@
+﻿@model WMS.Entities.Workflow
+@{
+    ViewBag.Title = "SubProcess Maintenance";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@using (Html.BeginForm())
+{
+    if (!string.IsNullOrEmpty(ViewBag.Message))
+    {
+    <div id="alert" class="alert alert-success">
+        <strong>Well done!</strong> @ViewBag.Message
+    </div>      
+    }
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <strong>New Process</strong>
+        </div>
+        <div class="panel-body">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <div class="editor-label">
+                            <label>
+                                Process</label>
+                        </div>
+                        <div class="editor-field">
+                            @Html.TextBoxFor(model => model.Process.ProcessName, new { @class = "form-control", disabled = "true" })
+                        </div>
+                        <div class="editor-label">
+                            <label>
+                                SubProcess</label>
+                        </div>
+                        <div class="editor-field">
+                            @Html.TextBoxFor(model => model.SubProcess.SubProcessName, new { @class = "form-control", disabled = "true" })
+                        </div>
+                        <div class="editor-label">
+                            <label>
+                                Classification</label>
+                        </div>
+                        <div class="editor-field">
+                            @Html.TextBoxFor(model => model.Classification.Name, new { @class = "form-control", disabled = "true" })
+                        </div>
+                        <div class="editor-label">
+                            <label>
+                                Code</label>
+                        </div>
+                        <div class="editor-field">
+                            @Html.TextBoxFor(model => model.Code, new { @class = "form-control", disabled = "true" })
+                        </div>
+                        <div class="editor-label">
+                            <label>
+                                Name</label>
+                        </div>
+                        <div class="editor-field">
+                            @Html.TextBoxFor(model => model.Name, new { @class = "form-control", disabled = "true" })
+                        </div>
+                        <div class="editor-label">
+                            <label>
+                                Description</label>
+                        </div>
+                        <div class="editor-field">
+                            @Html.TextAreaFor(model => model.Description, new { @class = "form-control", disabled = "true" })
+                        </div>
+                        <div class="editor-label">
+                            <label>
+                                Active</label>
+                        </div>
+                        <div class="editor-field">
+                            @Html.EditorFor(model => model.Active, new { @class = "checkbox", disabled = "true" })
+                        </div>
+                        @Html.HiddenFor(model => model.Id)
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+<div class="right">
+    <input type="button" value="Modify" class="btn btn-large btn-success" id="btnModify" />
+    <input type="button" value="Back to the List" class="btn btn-large btn-success" id="btnBackToList" />
+</div>
+@Html.Hidden("Home", Url.Action("Index"))
+@Html.Hidden("Manage", Url.Action("Manage"))
+@Html.Hidden("SecuredId", (object)ViewBag.SecuredId)

@@ -1,0 +1,9 @@
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.WebApi.Entities\bin\Release\WMS.WebApi.Entities.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.WebApi.Entities\bin\Release\WMS.WebApi.Entities.pdb
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.WebApi.Entities\obj\Release\WMS.WebApi.Entities.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.WebApi.Entities\obj\Release\WMS.WebApi.Entities.pdb
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.WebApi.Entities\bin\Release\WMS.WebApi.Entities.dll
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.WebApi.Entities\bin\Release\WMS.WebApi.Entities.pdb
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.WebApi.Entities\obj\Release\WMS.WebApi.Entities.csprojResolveAssemblyReference.cache
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.WebApi.Entities\obj\Release\WMS.WebApi.Entities.dll
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.WebApi.Entities\obj\Release\WMS.WebApi.Entities.pdb

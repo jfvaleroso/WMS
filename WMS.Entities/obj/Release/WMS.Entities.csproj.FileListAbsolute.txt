@@ -1,0 +1,9 @@
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Entities\bin\Release\WMS.Entities.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Entities\bin\Release\WMS.Entities.pdb
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Entities\obj\Release\WMS.Entities.csprojResolveAssemblyReference.cache
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Entities\obj\Release\WMS.Entities.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Entities\obj\Release\WMS.Entities.pdb
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.Entities\bin\Release\WMS.Entities.dll
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.Entities\bin\Release\WMS.Entities.pdb
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.Entities\obj\Release\WMS.Entities.dll
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.Entities\obj\Release\WMS.Entities.pdb

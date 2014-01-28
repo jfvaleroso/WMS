@@ -1,0 +1,20 @@
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.Entities\bin\Debug\WMS.Entities.dll
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.Entities\bin\Debug\WMS.Entities.pdb
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.Entities\obj\Debug\WMS.Entities.dll
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.Entities\obj\Debug\WMS.Entities.pdb
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.Entities\bin\Debug\WMS.Entities.dll
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.Entities\bin\Debug\WMS.Entities.pdb
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.Entities\obj\Debug\WMS.Entities.dll
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.Entities\obj\Debug\WMS.Entities.pdb
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Entities\bin\Debug\WMS.Entities.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Entities\bin\Debug\WMS.Entities.pdb
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Entities\obj\Debug\WMS.Entities.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Entities\obj\Debug\WMS.Entities.pdb
+C:\GITREPOSITORY\GITHUB\WMS\WMS.Entities\bin\Debug\WMS.Entities.dll
+C:\GITREPOSITORY\GITHUB\WMS\WMS.Entities\bin\Debug\WMS.Entities.pdb
+C:\GITREPOSITORY\GITHUB\WMS\WMS.Entities\obj\Debug\WMS.Entities.dll
+C:\GITREPOSITORY\GITHUB\WMS\WMS.Entities\obj\Debug\WMS.Entities.pdb
+D:\GITREPOSITORY\GITHUB\WMS\WMS.Entities\bin\Debug\WMS.Entities.dll
+D:\GITREPOSITORY\GITHUB\WMS\WMS.Entities\bin\Debug\WMS.Entities.pdb
+D:\GITREPOSITORY\GITHUB\WMS\WMS.Entities\obj\Debug\WMS.Entities.dll
+D:\GITREPOSITORY\GITHUB\WMS\WMS.Entities\obj\Debug\WMS.Entities.pdb

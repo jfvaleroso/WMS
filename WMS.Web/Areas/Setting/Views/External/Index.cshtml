@@ -1,0 +1,72 @@
+﻿@model WMS.Web.Areas.Setting.Models.SettingModel
+
+@{
+    ViewBag.Title = "External Webservice";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="small">
+    <fieldset>
+        <div class="display-label">
+            @Html.DisplayName("Application Code (Current System Code)")
+        </div>
+        <div class="display-field">
+            @Html.DisplayFor(model => model.Application)
+        </div>
+        <div class="display-label">
+            @Html.DisplayName("Secured Database Connection(Note: Cannot be modified)")
+        </div>
+        <div class="display-field">
+            @Html.DisplayFor(model => model.SecuredConnection)
+        </div>
+    </fieldset>
+</div>
+
+<h4>Setting</h4>
+<table class="table table-condensed small">
+
+    @foreach (var item in Model.ExternalWebServiceList)
+    {
+        <tr>
+            <td>@item.SystemCode</td>
+            <td>@item.Name</td>
+            <td>@item.URL</td>
+            <td>@item.Description</td>
+            <td>@Html.ActionLink("Edit", "Modify", new { id = item.SystemCode }, new { @class = "btn btn-success preview", @id = item.SystemCode })</td>
+        </tr>
+
+    }
+</table>
+
+<script>
+    $(function () {
+
+        function getRequest(url, title) {
+            $.ajax({
+                url: url,
+                context: document.body,
+                cache: false,
+                success: function (data) {
+                  //  $("#transaction").removeClass("hide");
+                    $('#mainModal .modal-body').html(data);
+                    $(this).addClass("done");
+                    $('#mainModal .modal-header .modal-title').empty().append(title);
+                    $('#mainModal').modal('show');
+                },
+                error: function (err) {
+                    alert(err);
+                }
+            })
+        };
+
+            $(".preview").on("click", function (event) {
+                event.preventDefault();
+                 var url = $(this).attr("href");
+                getRequest(url, "Edit External Webservice");
+
+                return false;
+            });
+
+
+        });
+</script>

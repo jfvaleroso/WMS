@@ -1,0 +1,67 @@
+﻿@model WMS.Web.Models.NotificationMappingModel
+@{
+
+}
+
+
+<div id="loading" class="hide">
+    <img src="@Url.Content("~/Content/images/spinner.gif")" />
+</div>
+
+<div id="transaction">
+    @using (Html.BeginForm())
+    { @Html.ValidationSummary(true)
+        <div id="alert" class="alert alert-danger hide">
+            <span class="glyphicon glyphicon-remove"></span><strong>Error</strong>
+            <span id="notification"></span>
+            @Html.ValidationSummary()
+        </div>
+
+        <div class="form-group">
+
+            <div class="editor-field">
+                @Html.TextBoxFor(model => model.Workflow.Name, new { @class = "form-control", @readonly = "readonly" })
+                <p class="small">Selected workflow.</p>
+            </div>
+
+            <div class="editor-field">
+                @Html.TextBoxFor(model => model.Status.Name, new { @class = "form-control", @readonly = "readonly" })
+                <p class="small">Selected status.</p>
+            </div>
+
+            <div class="editor-field">
+
+                @Html.CkEditorFor(model => model.EmailContent, new { @class = "ckeditor", @id = "EmailContent-Edit", @name = "EmailContent-Edit" })
+                <p class="small">Specify the email notification.</p>
+
+            </div>
+            <div class="editor-field">
+                @Html.TextAreaFor(model => model.SMSContent, new { @class = "form-control" })
+                <p class="small">Specify the sms notification.</p>
+            </div>
+        </div>
+        <div class="right">
+            <button id="btnSaveChanges" class="btn btn-large btn-success" type="button">
+                Save Changes
+            </button>
+            <button id="btnClose" class="btn btn-large btn-success" type="button" data-dismiss="modal">
+                Cancel
+            </button>
+        </div>
+
+
+
+    }
+</div>
+
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        CKEDITOR.replace('EmailContent-Edit')
+    });
+</script>
+
+@Html.Hidden("Home", Url.Action("Index"))
+@Html.Hidden("Manage", Url.Action("Manage"))
+
+

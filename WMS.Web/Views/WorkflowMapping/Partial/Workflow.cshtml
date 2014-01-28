@@ -1,0 +1,104 @@
+﻿@model WMS.Web.Models.WorkflowMappingModel
+
+
+
+<div id="data-list">
+    <table id="WorkflowTable" class="table table-condensed table-striped small table-hover">
+        @if (Model.WorkflowMappingList.Any())
+        {
+            <thead>
+                <tr>
+                    <td></td>
+                    <td>Level</td>
+                    <td>Assignee</td>
+                    <td>SLA</td>
+                </tr>
+
+            </thead>
+        }
+
+        @{ int counter = 0;}
+        @foreach (var item in Model.WorkflowMappingList)
+{
+    <tr id="@counter">
+        @*<td><span class="glyphicon glyphicon-align-justify pointer" data-toggle="tooltip" title="Click to modify."></span></td>*@
+        <td>
+            @(string.Format("{0} {1}", "", ++counter))
+        </td>
+        <td>
+            @item.Approver
+        </td>
+        <td>
+            @if (@item.SLA == 1)
+            {
+                @(string.Format("{0} {1}", item.SLA, "day"))
+            }
+            else
+            {
+                @(string.Format("{0} {1}", item.SLA, "days"))
+            }
+
+        </td>
+
+        <td>
+            <span>
+                @Ajax.ActionLink("delete", "RemoveWorkflow", new { approver = item.Approver }, new AjaxOptions()
+                {
+                    HttpMethod = "GET",
+                    UpdateTargetId = "data-list",
+                    OnSuccess = "activateTableDND()"
+                })
+            </span>
+        </td>
+
+    </tr>
+}
+
+    </table>
+
+</div>
+
+
+<script type="text/javascript">
+    function activateTableDND() {
+        $("#WorkflowTable").tableDnD();
+        $("#WorkflowTable").tableDnD({
+            onDragClass: "tDnD_whileDrag",
+            onDrop: function (table, row) {
+                var rows = table.tBodies[0].rows;
+                var ids = "";
+                for (var i = 0; i < rows.length; i++) {
+                    if (i == (--rows.length))
+                    { ids += rows[i].id; }
+                    else
+                    { ids += rows[i].id + ","; }
+
+                }
+
+
+                $.ajax({
+                    url: '@Url.Action("RearrangeWorkflow")',
+                    type: "post",
+                    data: { id: ids },
+                    complete: function (data) {
+                    },
+                    error: function (data) {
+                        alert('error');
+                    },
+                    success: function (data) {
+                        $('#data-list').html(data);
+                        $('#data-list').tooltip({
+                            selector: "[data-toggle=tooltip]",
+                            container: "body"
+                        })
+                        activateTableDND();
+                       
+                    }
+                });
+
+            },
+
+        });
+    }
+
+</script>

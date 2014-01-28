@@ -1,0 +1,10 @@
+﻿@model WMS.Web.Models.WorkflowModel
+
+
+<div id="partial-subProcess" class="editor-field">
+    @Html.DropDownListFor(model => model.SubProcessId, Model.SubProcessList, string.Empty, new { @class = "combobox combobox-medium" })
+    <p class="small">Please select a sub process.</p>
+</div>
+
+
+

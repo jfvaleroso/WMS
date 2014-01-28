@@ -1,0 +1,40 @@
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem\WMS.Core\bin\Debug\WMS.Core.dll
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem\WMS.Core\bin\Debug\WMS.Core.pdb
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem\WMS.Core\obj\Debug\WMS.Core.dll
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem\WMS.Core\obj\Debug\WMS.Core.pdb
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem\WMS.Core\obj\Debug\WMS.Core.csprojResolveAssemblyReference.cache
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.Core\bin\Debug\WMS.Core.dll
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.Core\bin\Debug\WMS.Core.pdb
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.Core\bin\Debug\WMS.Entities.dll
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.Core\bin\Debug\WMS.Entities.pdb
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.Core\obj\Debug\WMS.Core.csprojResolveAssemblyReference.cache
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.Core\obj\Debug\WMS.Core.dll
+C:\Users\jfvaleroso.SMART\Documents\Visual Studio 2010\Projects\WorkflowManagementSystem_Edited\WMS.Core\obj\Debug\WMS.Core.pdb
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.Core\bin\Debug\WMS.Core.dll
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.Core\bin\Debug\WMS.Core.pdb
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.Core\bin\Debug\WMS.Entities.dll
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.Core\bin\Debug\WMS.Entities.pdb
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.Core\obj\Debug\WMS.Core.csprojResolveAssemblyReference.cache
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.Core\obj\Debug\WMS.Core.dll
+C:\Users\rdbelmonte\Documents\Visual Studio 2013\Projects\WorkflowManagementSystem_Edited\WMS.Core\obj\Debug\WMS.Core.pdb
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Core\bin\Debug\WMS.Core.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Core\bin\Debug\WMS.Core.pdb
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Core\bin\Debug\WMS.Entities.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Core\bin\Debug\WMS.Entities.pdb
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Core\obj\Debug\WMS.Core.csprojResolveAssemblyReference.cache
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Core\obj\Debug\WMS.Core.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Core\obj\Debug\WMS.Core.pdb
+C:\GITREPOSITORY\GITHUB\WMS\WMS.Core\bin\Debug\WMS.Core.dll
+C:\GITREPOSITORY\GITHUB\WMS\WMS.Core\bin\Debug\WMS.Core.pdb
+C:\GITREPOSITORY\GITHUB\WMS\WMS.Core\bin\Debug\WMS.Entities.dll
+C:\GITREPOSITORY\GITHUB\WMS\WMS.Core\bin\Debug\WMS.Entities.pdb
+C:\GITREPOSITORY\GITHUB\WMS\WMS.Core\obj\Debug\WMS.Core.csprojResolveAssemblyReference.cache
+C:\GITREPOSITORY\GITHUB\WMS\WMS.Core\obj\Debug\WMS.Core.dll
+C:\GITREPOSITORY\GITHUB\WMS\WMS.Core\obj\Debug\WMS.Core.pdb
+D:\GITREPOSITORY\GITHUB\WMS\WMS.Core\bin\Debug\WMS.Core.dll
+D:\GITREPOSITORY\GITHUB\WMS\WMS.Core\bin\Debug\WMS.Core.pdb
+D:\GITREPOSITORY\GITHUB\WMS\WMS.Core\bin\Debug\WMS.Entities.dll
+D:\GITREPOSITORY\GITHUB\WMS\WMS.Core\bin\Debug\WMS.Entities.pdb
+D:\GITREPOSITORY\GITHUB\WMS\WMS.Core\obj\Debug\WMS.Core.csprojResolveAssemblyReference.cache
+D:\GITREPOSITORY\GITHUB\WMS\WMS.Core\obj\Debug\WMS.Core.dll
+D:\GITREPOSITORY\GITHUB\WMS\WMS.Core\obj\Debug\WMS.Core.pdb

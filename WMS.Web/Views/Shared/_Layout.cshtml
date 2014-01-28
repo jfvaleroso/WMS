@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Workflow Management System</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    @Styles.Render("~/Content/main/css")
+    @Styles.Render("~/Content/bootstrap/css")
+    @*@Styles.Render("~/Content/themes/base/css") *@
+    @Styles.Render("~/scripts/jtable/themes/metro/jeff/style")
+    @Scripts.Render("~/bundles/modernizr")
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/jqueryui")
+    @Scripts.Render("~/bundles/tablednd")
+    @Scripts.Render("~/bundles/jtable")
+    <script src="@Url.Content("~/Scripts/jtable/jquery.jtable.js")"></script>
+    @Scripts.Render("~/bundles/jquery.validate")
+    @Scripts.Render("~/bundles/mvcAjax")
+    @Scripts.Render("~/bundles/unobtrusive")
+    @Scripts.Render("~/bundles/ckeditor")
+    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+</head>
+<body>
+    <!-- Static navbar -->
+    <div class="navbar navbar-default navbar-static-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar">
+                    </span>
+                </button>
+                <a class="navbar-brand" href="@Url.Action("Index", "Home", new { area=""})">
+                  <img src="@Url.Content("~/Content/images/logo.png")" />
+                </a>
+            </div>
+            <div class="navbar-collapse collapse">
+                @Html.MvcSiteMap().Menu("BootstrapMenuHelperModel")
+                @Html.Partial("_LoginPartial")
+               
+            </div>
+        </div>
+        <div class="sub-navbar">
+            <div class="container">
+                <h1>@ViewBag.Title</h1>
+            </div>
+        </div>
+    </div>
+    <!-- /Static navbar -->
+    <!-- container -->
+    <div class="container">
+        @RenderSection("featured", required: false)
+        @RenderBody()
+        @Html.Partial("ModalTemplates/_Main")
+       
+    </div>
+    <!-- /container -->
+    <!-- script-->
+    @RenderSection("scripts", required: false)
+    @Scripts.Render("~/bundles/bootstrap")
+    @Scripts.Render("~/bundles/global")
+    @Scripts.Render("~/bundles/global/main")
+    <!-- /script-->
+  
+</body>
+</html>

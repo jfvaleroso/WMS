@@ -1,0 +1,20 @@
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Webservice\bin\Release\WMS.Webservice.dll.config
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Webservice\bin\Release\WMS.Webservice.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Webservice\bin\Release\WMS.Webservice.XmlSerializers.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Webservice\bin\Release\WMS.Webservice.pdb
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Webservice\bin\Release\WMS.Configurations.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Webservice\bin\Release\WMS.Configurations.pdb
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Webservice\obj\Release\WMS.Webservice.csprojResolveAssemblyReference.cache
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Webservice\obj\Release\WMS.Webservice.dll
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Webservice\obj\Release\WMS.Webservice.pdb
+D:\RDBelmonte\PROJECTS\PROJECT WMS\WMS.Webservice\obj\Release\WMS.Webservice.XmlSerializers.dll
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.Webservice\bin\Release\WMS.Webservice.dll.config
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.Webservice\bin\Release\WMS.Webservice.dll
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.Webservice\bin\Release\WMS.Webservice.XmlSerializers.dll
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.Webservice\bin\Release\WMS.Webservice.pdb
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.Webservice\bin\Release\WMS.Configurations.dll
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.Webservice\bin\Release\WMS.Configurations.pdb
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.Webservice\obj\Release\WMS.Webservice.csprojResolveAssemblyReference.cache
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.Webservice\obj\Release\WMS.Webservice.dll
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.Webservice\obj\Release\WMS.Webservice.pdb
+F:\SMART MACBOOK JFVALEROSO\Visual Studio 2013\Projects\PROJECT WMS\WMS.Webservice\obj\Release\WMS.Webservice.XmlSerializers.dll
