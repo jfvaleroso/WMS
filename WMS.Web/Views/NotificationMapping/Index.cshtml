@@ -30,14 +30,16 @@
                 HttpMethod = "POST",
                 InsertionMode = InsertionMode.Replace,
                 UpdateTargetId = "data-list"
+         
+                
             }))
             {
-                @Html.ValidationSummary(true)
-                <div id="alert" class="alert alert-danger hide">
-                    <span class="glyphicon glyphicon-remove"></span><strong>Error</strong>
-                    <span id="notification"></span>
-                    @Html.ValidationSummary()
-                </div>
+               <div id="alert" class="alert alert-danger hide">
+    <strong>Notification</strong>
+    <span id="notification"></span>
+    @Html.ValidationSummary(false)
+                   @Html.ValidationSummary(true)
+</div>
                 <div class="form-group">
                     @Html.HiddenFor(model => model.SecuredId)
                     <div class="editor-field">
@@ -64,7 +66,7 @@
                 </div>
 
                 <div class="left">
-                    <button class="btn btn-large btn-success" type="submit">
+                    <button  class="btn btn-large btn-success" type="submit">
                         Add Notification
                     </button>
 

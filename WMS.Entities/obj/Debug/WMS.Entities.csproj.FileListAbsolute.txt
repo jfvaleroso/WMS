@@ -18,3 +18,7 @@ D:\GITREPOSITORY\GITHUB\WMS\WMS.Entities\bin\Debug\WMS.Entities.dll
 D:\GITREPOSITORY\GITHUB\WMS\WMS.Entities\bin\Debug\WMS.Entities.pdb
 D:\GITREPOSITORY\GITHUB\WMS\WMS.Entities\obj\Debug\WMS.Entities.dll
 D:\GITREPOSITORY\GITHUB\WMS\WMS.Entities\obj\Debug\WMS.Entities.pdb
+C:\GITREPOSITORY\GITHUB\WMS-01292014\WMS.Entities\bin\Debug\WMS.Entities.dll
+C:\GITREPOSITORY\GITHUB\WMS-01292014\WMS.Entities\bin\Debug\WMS.Entities.pdb
+C:\GITREPOSITORY\GITHUB\WMS-01292014\WMS.Entities\obj\Debug\WMS.Entities.dll
+C:\GITREPOSITORY\GITHUB\WMS-01292014\WMS.Entities\obj\Debug\WMS.Entities.pdb

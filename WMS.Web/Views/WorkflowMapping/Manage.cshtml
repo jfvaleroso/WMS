@@ -26,11 +26,7 @@
         <div id="transaction">
             @using (Html.BeginForm())
             {
-                  <div id="alert" class="alert alert-danger hide">
-            <strong>Notification</strong>
-            <span id="notification"></span>
-            @Html.ValidationSummary(false)
-        </div>
+                   @Html.Partial("ModalTemplates/_Alert")
 
                 <div class="form-group">
 
@@ -77,7 +73,7 @@
                 </div>
 
                 <div class="left">
-                    <button id="btnAdd" class="btn btn-large btn-success" type="submit">
+                    <button id="btnAddLevel" class="btn btn-large btn-success" type="submit">
                         Add Level
                     </button>
 

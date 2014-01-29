@@ -43,3 +43,11 @@ D:\GITREPOSITORY\GITHUB\WMS\WMS.Webservice\bin\Debug\WMS.Configurations.pdb
 D:\GITREPOSITORY\GITHUB\WMS\WMS.Webservice\obj\Debug\WMS.Webservice.csprojResolveAssemblyReference.cache
 D:\GITREPOSITORY\GITHUB\WMS\WMS.Webservice\obj\Debug\WMS.Webservice.dll
 D:\GITREPOSITORY\GITHUB\WMS\WMS.Webservice\obj\Debug\WMS.Webservice.pdb
+C:\GITREPOSITORY\GITHUB\WMS-01292014\WMS.Webservice\bin\Debug\WMS.Webservice.dll.config
+C:\GITREPOSITORY\GITHUB\WMS-01292014\WMS.Webservice\bin\Debug\WMS.Webservice.dll
+C:\GITREPOSITORY\GITHUB\WMS-01292014\WMS.Webservice\bin\Debug\WMS.Webservice.pdb
+C:\GITREPOSITORY\GITHUB\WMS-01292014\WMS.Webservice\bin\Debug\WMS.Configurations.dll
+C:\GITREPOSITORY\GITHUB\WMS-01292014\WMS.Webservice\bin\Debug\WMS.Configurations.pdb
+C:\GITREPOSITORY\GITHUB\WMS-01292014\WMS.Webservice\obj\Debug\WMS.Webservice.csprojResolveAssemblyReference.cache
+C:\GITREPOSITORY\GITHUB\WMS-01292014\WMS.Webservice\obj\Debug\WMS.Webservice.dll
+C:\GITREPOSITORY\GITHUB\WMS-01292014\WMS.Webservice\obj\Debug\WMS.Webservice.pdb

@@ -110,6 +110,7 @@ namespace WMS.Web.Controllers
                     else
                     {
                         ModelState.AddModelError("StatusError", "already added");
+                        return Json(new { result = StatusCode.existed, message = MessageCode.existed, code = StatusCode.existed });
                     }
 
                 }
@@ -121,8 +122,9 @@ namespace WMS.Web.Controllers
                 model.DocumentMappingList = currentDocumentMapping;
                 if (Request.IsAjaxRequest())
                 {
-                    return PartialView("Partial/Document", model);
+                   return PartialView("Partial/Document", model);
                 }
+                return Json(new { result = StatusCode.saved, message = MessageCode.saved, code = StatusCode.saved });
             }
             return Json(new { result = StatusCode.failed, message = MessageCode.error, code = StatusCode.invalid });
         }

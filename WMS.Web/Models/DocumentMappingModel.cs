@@ -12,6 +12,8 @@ namespace WMS.Web.Models
     {
         [Required]
         public long WorkflowId { get; set; }
+        [Required]
+        [Display(Name="Document")]
         public int DocumentId { get; set; }
         public string SecuredId { get; set; }
         public IList<SelectListItem> WorkflowList { get; set; }

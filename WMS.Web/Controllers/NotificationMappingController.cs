@@ -107,6 +107,7 @@ namespace WMS.Web.Controllers
                     else
                     {
                         ModelState.AddModelError("StatusError", "already added");
+                        return Json(new { result = StatusCode.existed, message = MessageCode.existed, code = StatusCode.existed });
                     }
 
                 }
@@ -119,8 +120,9 @@ namespace WMS.Web.Controllers
                 {
                     return PartialView("Partial/Notification", model);
                 }
+                return Json(new { result = StatusCode.saved, message = MessageCode.saved, code = StatusCode.saved });
             }
-            return View();
+            return Json(new { result = StatusCode.failed, message = MessageCode.error, code = StatusCode.invalid });
         }        
         public ActionResult RemoveNotification(string code)
         {

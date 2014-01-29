@@ -14,3 +14,7 @@ D:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi.Entities\bin\Debug\WMS.WebApi.Entities.dl
 D:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi.Entities\bin\Debug\WMS.WebApi.Entities.pdb
 D:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi.Entities\obj\Debug\WMS.WebApi.Entities.dll
 D:\GITREPOSITORY\GITHUB\WMS\WMS.WebApi.Entities\obj\Debug\WMS.WebApi.Entities.pdb
+C:\GITREPOSITORY\GITHUB\WMS-01292014\WMS.WebApi.Entities\bin\Debug\WMS.WebApi.Entities.dll
+C:\GITREPOSITORY\GITHUB\WMS-01292014\WMS.WebApi.Entities\bin\Debug\WMS.WebApi.Entities.pdb
+C:\GITREPOSITORY\GITHUB\WMS-01292014\WMS.WebApi.Entities\obj\Debug\WMS.WebApi.Entities.dll
+C:\GITREPOSITORY\GITHUB\WMS-01292014\WMS.WebApi.Entities\obj\Debug\WMS.WebApi.Entities.pdb

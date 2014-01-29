@@ -26,6 +26,7 @@
     var getClassificationBySubProcessId = $("#GetClassificationBySubProcessId").val();
 
    
+
     //workflow
     $(document).on("change", "#ProcessId", function (event) {
     //$("#ProcessId").on("change", function (event) {
@@ -124,12 +125,15 @@
                         alert('error');
                     },
                     success: function (data) {
+                        if (data.caode = "004")
+                        {
                         $('#data-list').html(data);
                         $('#data-list').tooltip({
                             selector: "[data-toggle=tooltip]",
                             container: "body"
                         })
                         activateTableDND();
+                    }
                     }
                 });
 
@@ -140,32 +144,50 @@
 
     function clearForm() {
         $("#Assignee, #NoticeTo, #Operator").select2('data', null);
-        $("#SLA").val("");
+        $("#SLA").val("0");
     }
 
-    $("#btnAddLevel").on('click', function (event) {
+   
+
+    $("#btnAddLevel").click(function (event) {
         event.preventDefault();
         $.ajax({
-            url: addWorkflow,
+            url: add,
             type: "post",
             data: $('form').serialize(),
+            beforeSend: function () {
+                $('form').validate().form();
+            },
             complete: function (data) {
+                clearForm();
             },
             error: function (data) {
-                alert('error');
             },
             success: function (data) {
+               
+                if (data.code == "003") {
+                    $('#alert').removeClass('hide');
+                    $('#notification').addClass('validation-summary-errors');
+                    $('#notification').empty().append('<ul><li>Item has alredy been added!</li></ul>');
+                    $('div.validation-summary-errors').addClass('hide');
+                }
+                else if (data.code == "007") {
+                    $('#alert').removeClass('hide');
 
-                $('#data-list').html(data);
-                $('#data-list').tooltip({
-                    selector: "[data-toggle=tooltip]",
-                    container: "body"
-                })
-                activateTableDND();
-                clearForm();
+                }
+                else {
+                    $('#data-list').html(data);
+                    $('#alert').addClass('hide');
+                    activateTableDND();
+                    
+                }
             }
         });
     });
+
+
+
+
     function getMaximumSelectionSize(no) {
         $("#Assignee").select2({
             maximumSelectionSize: no
@@ -201,18 +223,28 @@
             url: add,
             type: "post",
             data: $('form').serialize(),
+            beforeSend: function () {
+                $('form').validate().form();
+            },
             complete: function (data) {
             },
             error: function (data) {
             },
-            success: function (data) {
-
-                $('#data-list').replaceWith(data);
-                $('#data-list').tooltip({
-                    selector: "[data-toggle=tooltip]",
-                    container: "body"
-                })
-
+            success: function (data) {           
+                 if (data.code == "003") {
+                    $('#alert').removeClass('hide');
+                    $('#notification').addClass('validation-summary-errors');
+                    $('#notification').empty().append('<ul><li>Item has alredy been added!</li></ul>');
+                    $('div.validation-summary-errors').addClass('hide');
+                }
+                else if (data.code == "007") {
+                    $('#alert').removeClass('hide');
+                 
+                }
+                else {
+                    $('#data-list').html(data);
+                    $('#alert').addClass('hide');
+                }
             }
         });
     });
@@ -233,7 +265,7 @@
             complete: function (data) {
             },
             error: function (data) {
-                alert('error');
+                
             },
             success: function (data) {
                 //saved
@@ -255,7 +287,7 @@
                     //invalid
                 else if (data.code == "007") {
                     $('#alert').removeClass('hide');
-                    $('#general-status').empty().append('Required field!');
+                 
                 }
                     //existed
                 else if (data.code == "003") {

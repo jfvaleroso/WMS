@@ -29,11 +29,7 @@
         <div id="transaction">
             @using (Html.BeginForm())
             {
-               <div id="alert" class="alert alert-danger hide">
-            <strong>Notification</strong>
-            <span id="notification"></span>
-            @Html.ValidationSummary(false)
-        </div>
+                @Html.Partial("ModalTemplates/_Alert")
 
                 <div class="form-group">
                     <div class="editor-label">
@@ -93,7 +89,7 @@
 
                 <div class="right">
                     <button id="btnCancel" class="btn btn-large btn-success" type="button">
-                       Cancel
+                        Cancel
                     </button>
                     <button id="btnSaveAndNext" class="btn btn-large btn-success" type="button">
                         Save and Next

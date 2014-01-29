@@ -32,12 +32,7 @@
                 UpdateTargetId = "data-list"
             }))
 {
-                  @Html.ValidationSummary(true)
-                <div id="alert" class="alert alert-danger hide">
-                    <span class="glyphicon glyphicon-remove"></span><strong>Error</strong>
-                    <span id="notification"></span>
-                    @Html.ValidationSummary()
-                </div>
+                   @Html.Partial("ModalTemplates/_Alert")
                 <div class="form-group">
 
                     <div class="editor-field">

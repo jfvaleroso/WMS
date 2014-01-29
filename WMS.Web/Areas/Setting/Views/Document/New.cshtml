@@ -5,19 +5,12 @@
 
 
 
-<div id="loading" class="hide">
-    <img src="@Url.Content("~/Content/images/spinner.gif")" />
-</div>
 
 <div id="transaction">
     @using (Html.BeginForm())
     {
 
-       <div id="alert" class="alert alert-danger hide">
-            <strong>Notification</strong>
-            <span id="notification"></span>
-            @Html.ValidationSummary(false)
-        </div>
+    @Html.Partial("ModalTemplates/_Alert")
 
         <div class="form-group">
             <div class="editor-label">

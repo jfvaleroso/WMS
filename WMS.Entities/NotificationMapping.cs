@@ -10,9 +10,10 @@ namespace WMS.Entities
     public class NotificationMapping : Entity<long>
     {
 
+
         public virtual Workflow Workflow { get; set; }
         public virtual Status Status { get; set; }
-        
+     
         public virtual string EmailContent { get; set; }
         public virtual string SMSContent { get; set; }
     }

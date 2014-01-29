@@ -18,3 +18,7 @@ D:\GITREPOSITORY\GITHUB\WMS\WMS.Configuration\bin\Debug\WMS.Configurations.dll
 D:\GITREPOSITORY\GITHUB\WMS\WMS.Configuration\bin\Debug\WMS.Configurations.pdb
 D:\GITREPOSITORY\GITHUB\WMS\WMS.Configuration\obj\Debug\WMS.Configurations.dll
 D:\GITREPOSITORY\GITHUB\WMS\WMS.Configuration\obj\Debug\WMS.Configurations.pdb
+C:\GITREPOSITORY\GITHUB\WMS-01292014\WMS.Configuration\bin\Debug\WMS.Configurations.dll
+C:\GITREPOSITORY\GITHUB\WMS-01292014\WMS.Configuration\bin\Debug\WMS.Configurations.pdb
+C:\GITREPOSITORY\GITHUB\WMS-01292014\WMS.Configuration\obj\Debug\WMS.Configurations.dll
+C:\GITREPOSITORY\GITHUB\WMS-01292014\WMS.Configuration\obj\Debug\WMS.Configurations.pdb

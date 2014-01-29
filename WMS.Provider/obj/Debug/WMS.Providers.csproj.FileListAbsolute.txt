@@ -22,3 +22,7 @@ D:\GITREPOSITORY\GITHUB\WMS\WMS.Provider\bin\Debug\WMS.Providers.dll
 D:\GITREPOSITORY\GITHUB\WMS\WMS.Provider\bin\Debug\WMS.Providers.pdb
 D:\GITREPOSITORY\GITHUB\WMS\WMS.Provider\obj\Debug\WMS.Providers.dll
 D:\GITREPOSITORY\GITHUB\WMS\WMS.Provider\obj\Debug\WMS.Providers.pdb
+C:\GITREPOSITORY\GITHUB\WMS-01292014\WMS.Provider\bin\Debug\WMS.Providers.dll
+C:\GITREPOSITORY\GITHUB\WMS-01292014\WMS.Provider\bin\Debug\WMS.Providers.pdb
+C:\GITREPOSITORY\GITHUB\WMS-01292014\WMS.Provider\obj\Debug\WMS.Providers.dll
+C:\GITREPOSITORY\GITHUB\WMS-01292014\WMS.Provider\obj\Debug\WMS.Providers.pdb

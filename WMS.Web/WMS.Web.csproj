@@ -1143,6 +1143,7 @@
     <Content Include="Views\Shared\ModalTemplates\_Confirmation.cshtml" />
     <Content Include="Views\Shared\ModalTemplates\_Status.cshtml" />
     <Content Include="Views\WorkflowMapping\Manage.cshtml" />
+    <Content Include="Views\Shared\ModalTemplates\_Alert.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Application.Extensions\Application.Extensions.csproj">

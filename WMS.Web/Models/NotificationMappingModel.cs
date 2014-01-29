@@ -13,6 +13,7 @@ namespace WMS.Web.Models
         [Required]
         public long WorkflowId { get; set; }
         [Required]
+        [Display(Name="Status")]
         public int StatusId { get; set; }
         [AllowHtml]
         [Required]
